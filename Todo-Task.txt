@@ -1,0 +1,1585 @@
+
+// 
+TODO(sarakato): Set contents of webView element once b/150734712 has been resolved. android/ArcCameraFpsTest/src/org/chromium/arc/testapp/camerafps/CaptureCallbackHistogram.java:184: 
+
+// 
+TODO(b/160650453): Latency histogram values on ARCVM will be shifted by fixed offset android/ArcDownloadManagerTest/src/org/chromium/arc/testapp/downloadmanager/MainActivity.java:34: 
+
+// 
+TODO(b/180082486): Stop commenting out the @GuardedBy annotation once we import or define it. android/build/util/process_resources.py:79:# 
+TODO(tokubi@google.com) Remove move_rjava and add R.java root to javac. helpers/local/graphics.GBM.gbmtest.cc:772: 
+
+// 
+TODO(crbug.com/752669) src/chromiumos/tast/common/android/adb/commands.go:51: 
+
+// 
+TODO(springerm): extras is a key-value map and should be parsed. src/chromiumos/tast/common/android/adb/commands.go:70: 
+
+// 
+TODO(springerm): Find a way to report metrics from Android apps, so we can avoid this parsing hackery. src/chromiumos/tast/common/cros/nearbyshare/nearbysetup/nearbysetup.go:183: 
+
+// 
+TODO(crbug/1185918): Re-adding the account immediately after removing it is flaky. src/chromiumos/tast/common/cros/nearbyshare/nearbytestutils/nearbytestutils.go:56:
+
+// 
+TODO(b/175889133) Remove hardcoded hostnames when multi dut skylab support is available. src/chromiumos/tast/common/crypto/certificate/cert.go:25:
+
+// 
+TODO(crbug.com/1047146): upgrade from MD5 crypto. src/chromiumos/tast/common/crypto/certificate/cert_test.go:48: 
+
+// 
+TODO(crbug.com/1047146): MD5 certificates are rejected by Golang x509. We're still allowing them for now. src/chromiumos/tast/common/hwsec/cryptohome_client.go:660: 
+
+// 
+TODO(crbug.com/1187192): Parsing human readable output is error prone. src/chromiumos/tast/common/hwsec/cryptohome_mount_info.go:31: 
+
+// 
+TODO(crbug.com/1074735): Remove this and use mounterExe above for src/chromiumos/tast/common/hwsec/helpers.go:326: 
+
+// 
+TODO(b/173189029): Ignore errors on failure. This is a workaround to prevent Permission denied when removing a fscrypt directory. src/chromiumos/tast/common/hwsec/tpm_manager_client.go:167: 
+
+// 
+TODO(yich): This compare is slow when we have big msg and prefixes. src/chromiumos/tast/common/media/caps/caps.go:91: 
+
+// 
+TODO: add here HWEncodeH264OddDimension when video.EncodeAccel has a test src/chromiumos/tast/common/network/diag/api.go:18:
+
+// 
+TODO(crbug/1127165): convert this to a data file when supported by fixtures. src/chromiumos/tast/common/network/iw/runner.go:482:
+
+// 
+TODO(crbug.com/1017533, crbug.com/1005443): we can use 80MHz instead of 80 src/chromiumos/tast/common/network/wpacli/runner.go:47:
+
+// 
+TODO(b/161915905): replace "blacklist" with more inclusive term once wpa_supplicant updated. src/chromiumos/tast/common/perf/perf.go:106:// Maps a Metric unit type to a histogram unit type. 
+TODO(stevenjb) Investigate src/chromiumos/tast/common/perf/perf.go:315: 
+
+// 
+TODO(stevenjb): Handle Variances and resolve mismatched units. src/chromiumos/tast/common/policy/fakedms/fakedms.go:40:
+
+// 
+TODO(crbug.com/1187473): Remove src/chromiumos/tast/common/policy/fakedms/fakedms.go:85: 
+
+// 
+TODO(crbug.com/999751): Let caller specify --client-state. src/chromiumos/tast/common/policy/fakedms/fakedms.go:96: 
+
+// 
+TODO(crbug.com/1041159): Switch back to "python" once policy_testserver.py supports python3. src/chromiumos/tast/common/policy/gen/policy_tast_struct_creator.py:528:# 
+TODO(kathrelkeld): handle OpenNetworkConfiguration case. src/chromiumos/tast/common/xmlrpc/xmlrpc.go:207: 
+
+// 
+TODO(crbug.com/1201727): Support more data types, such as Golang map to XML-RPC struct. src/chromiumos/tast/common/xmlrpc/xmlrpc.go:293: 
+//
+TODO(crbug.com/1201727): Support unpack more data types, such as XML-RPC struct. src/chromiumos/tast/local/a11y/a11y.go:78: 
+
+// 
+TODO(b/178978967): Migrate to use public APIs rather than internal classes. src/chromiumos/tast/local/a11y/a11y.go:193: 
+
+// 
+TODO (akihiroota): only close instances that are not tied to the src/chromiumos/tast/local/android/ui/gen/gen_constants.go:63: 
+
+// 
+TODO(ricardoq): Multiline, bitwise-or metas are not supported. Find a robust way to support them. e.g: src/chromiumos/tast/local/arc/activity.go:219: 
+
+// 
+TODO(b/141175230): Freeform windows should not include caption. Remove check once bug gets fixed. src/chromiumos/tast/local/arc/activity.go:670: 
+
+// 
+TODO(ricardoq): Fetch stableSize directly from Chrome OS, and not from Android. src/chromiumos/tast/local/arc/arc.go:102:
+
+// 
+TODO(b/134144418): Consolidate ARC and ARCVM diverged code once ADB issues are resolved. src/chromiumos/tast/local/arc/arc.go:442: 
+
+// 
+TODO(b/167944318): try a better message src/chromiumos/tast/local/arc/arc.go:478: 
+
+// 
+TODO(b/185198563): Replace net.tcp.default_init_rwnd with ro.arc.on_boot completely. src/chromiumos/tast/local/arc/arc.go:643: 
+
+// 
+TODO(b/153934386): Remove this check when pstore is enabled on ARM. src/chromiumos/tast/local/arc/display.go:25: 
+
+// 
+TODO: Replace hard code caption height by getting from ash. src/chromiumos/tast/local/arc/dumpsys.go:152: 
+
+// 
+TODO(crbug.com/989595): parse dumpsys protobuf output instead. Protobuf is supported by P, Q and R+. src/chromiumos/tast/local/arc/dumpsys.go:173: 
+
+// 
+TODO(takise): Use SubexpNames to avoid hard coding the indexes. src/chromiumos/tast/local/arc/dumpsys.go:240: 
+
+// 
+TODO(b/152576355): Task stack info are not provided by TaskProto, we need to use other sources for the information. src/chromiumos/tast/local/arc/dumpsys.go:271: 
+
+// 
+TODO(b/152576355): StackID, StackSize src/chromiumos/tast/local/arc/fixture.go:213: 
+
+// 
+TODO(crbug.com/1136382): Support per-test logcat once we get pre/post-test src/chromiumos/tast/local/arc/fixture.go:222: 
+
+// 
+TODO(crbug.com/1136382): Support per-test logcat once we get pre/post-test src/chromiumos/tast/local/arc/optin/optin.go:120: 
+
+// 
+TODO(niwa): Check if we still need to handle non-tos_needed case. src/chromiumos/tast/local/assistant/assistant.go:30:
+
+// 
+TODO(meilinw): Add a reference for the struct after the API change landed (crrev.com/c/1552293). src/chromiumos/tast/local/bundles/cros/apps/content_preview.go:80: thumbnail: "", 
+
+// 
+TODO (melzhang@google.com): to add functions to create thumbnail for the files. src/chromiumos/tast/local/bundles/cros/apps/content_preview.go:170: 
+
+// 
+TODO (melzhang@google.com): add code when thumbnail is implemented for content preview. src/chromiumos/tast/local/bundles/cros/apps/launch_gallery.go:67: 
+//
+TODO(crbug/1146196) Remove retry after Downloads mounting issue fixed. src/chromiumos/tast/local/bundles/cros/apps/pre/pre.go:37:
+
+// 
+TODO(crbug.com/1137646): Remove this list once crbug.com/1072877 has been fixed. src/chromiumos/tast/local/bundles/cros/apps/system_web_apps_install_guest.go:27: 
+
+// 
+TODO(crbug/1190865): Disabled as the guest session is causing subsequent tests issues. src/chromiumos/tast/local/bundles/cros/arc/a11y/a11y.go:148: 
+
+// 
+TODO(b/150734712): Move this out of each subtest once bug has been addressed. src/chromiumos/tast/local/bundles/cros/arc/a11y/a11y.go:169: 
+
+// 
+TODO(b/161864703): Use chrome.Conn instead of TestConn. src/chromiumos/tast/local/bundles/cros/arc/a11y/a11y.go:182: 
+
+// 
+TODO(crbug.com/1044446): Take faillog on testing.State.Fatal() invocation. src/chromiumos/tast/local/bundles/cros/arc/accessibility_event.go:25:
+
+// 
+TODO(b/159413215): Use automationEvent instead of axEventLog. src/chromiumos/tast/local/bundles/cros/arc/accessibility_event.go:102: 
+
+// 
+TODO(b/142093176) Find the root cause. src/chromiumos/tast/local/bundles/cros/arc/accessibility_speech.go:78: 
+
+// 
+TODO(b:146844194): Add test for EditTextActivity. src/chromiumos/tast/local/bundles/cros/arc/adb_sideload_service.go:60: 
+
+// 
+TODO : Convert the polling function to an Explicit write to the DUT's disk src/chromiumos/tast/local/bundles/cros/arc/app_loading_perf.go:184: 
+
+// 
+TODO(b/169947243): Add initial traffic control queuing discipline settings src/chromiumos/tast/local/bundles/cros/arc/app_loading_perf.go:337: 
+
+// 
+TODO(b/169341324): Reduce subflow test timeout and overall context timeout. src/chromiumos/tast/local/bundles/cros/arc/apploading/apploading.go:101: 
+TODO(b/153866893): Currently not supported in CrOS src/chromiumos/tast/local/bundles/cros/arc/ash_window_state.go:50: 
+
+// 
+TODO(xdai): Test window state functionalities in tablet mode as well. src/chromiumos/tast/local/bundles/cros/arc/auth_perf.go:161: 
+
+// 
+TODO(crbug.com/995869): Remove set of flags to disable app sync, PAI, locale sync, Play Store auto-update. src/chromiumos/tast/local/bundles/cros/arc/availability.go:28: 
+
+// 
+TODO(http://b/172011479): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/build_properties.go:161: 
+
+// 
+TODO(b/159985784): Remove the hack once we bring up a board truly src/chromiumos/tast/local/bundles/cros/arc/cache_perf.go:162: 
+
+// 
+TODO(crbug.com/995869): Remove set of flags to disable app sync, PAI, locale sync, Play Store auto-update. src/chromiumos/tast/local/bundles/cros/arc/cgroups.go:85: 
+
+// 
+TODO(sonnyrao): Try to figure out how to use the app launcher to do this. src/chromiumos/tast/local/bundles/cros/arc/cgroups.go:110: 
+
+// 
+TODO(sonnyrao): try to show and then hide the apps shelf and verify the shares value stays as expected. src/chromiumos/tast/local/bundles/cros/arc/cgroups.go:123: 
+
+// 
+TODO(b/152733335): Fix and remove this in ARCVM. src/chromiumos/tast/local/bundles/cros/arc/check_android_arm64_support.go:30: 
+
+// 
+TODO(b/162805199): Track the list of known devices which src/chromiumos/tast/local/bundles/cros/arc/chrome_crash.go:34: 
+
+// 
+TODO(hashimoto): Enable this once mini-ARCVM is re-enabled. b/181279632 src/chromiumos/tast/local/bundles/cros/arc/chrome_virtual_keyboard.go:249:
+
+// 
+TODO(crbug.com/1081596): Add tests with an IME with composition. src/chromiumos/tast/local/bundles/cros/arc/clipboard.go:360: 
+
+// 
+TODO(ruanc): Copying big text (500Kb) is blocked by https://bugs.chromium.org/p/chromium/issues/detail?id=916882 src/chromiumos/tast/local/bundles/cros/arc/companion_library.go:224: 
+
+// 
+TODO(sstan): Using set bound function replace the simple window bounds check. src/chromiumos/tast/local/bundles/cros/arc/companion_library.go:250: 
+
+// 
+TODO(sstan): Using obj.WaitForExist() before GetText(), rather than Poll it. src/chromiumos/tast/local/bundles/cros/arc/companion_library.go:794: 
+
+// 
+TODO(b/146846841): From M81, the device mode change callback function flaky. src/chromiumos/tast/local/bundles/cros/arc/companion_library.go:796: 
+
+// 
+TODO(crbug.com/1002958): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/container_mount.go:25: 
+
+// 
+TODO(yusukes,ricardoq): ARCVM does not need the test. Remove this once we retire ARC container. src/chromiumos/tast/local/bundles/cros/arc/containermount/containermount.go:188: 
+
+// 
+TODO(chavey): crbug/1126921 - replace master in structure. src/chromiumos/tast/local/bundles/cros/arc/containermount/containermount.go:362: 
+
+// 
+TODO(crbug.com/1069501): Remove once bug is fixed. src/chromiumos/tast/local/bundles/cros/arc/cpu_set.go:50:
+
+// 
+TODO (hidehiko@): merge this and InitPID() src/chromiumos/tast/local/bundles/cros/arc/data_migration.go:41: 
+
+// 
+TODO(b/179636279): Remove "no_qemu" after making the test pass on betty. src/chromiumos/tast/local/bundles/cros/arc/deqp.go:35:
+
+// 
+TODO(morg): Set up a DEQP "full" test suite for nightly builds. src/chromiumos/tast/local/bundles/cros/arc/deqp.go:97:
+
+// 
+TODO(morg): Add support for different DEQP suite versions as a parameterized test flag (9.0r9, 9.0r10, etc). src/chromiumos/tast/local/bundles/cros/arc/disable_arc.go:72: 
+
+// 
+TODO(b/178232263): remove this once the test is fixed. src/chromiumos/tast/local/bundles/cros/arc/enterprise_login.go:107: 
+
+// 
+TODO(b/154760453): switch to fake DMS once crbug.com/1099310 is resolved src/chromiumos/tast/local/bundles/cros/arc/file_system_permissions.go:26: 
+
+// 
+TODO(yusukes,ricardoq): ARCVM does not need the test. Remove this once we retire ARC container. src/chromiumos/tast/local/bundles/cros/arc/file_system_xattrs.go:24: 
+
+// 
+TODO(yusukes,ricardoq): ARCVM does not need the test. Remove this once we retire ARC container. src/chromiumos/tast/local/bundles/cros/arc/game_performance_buffers.go:20: 
+
+// 
+TODO(http://b/140444033): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/hwoverlay_tablet.go:27: 
+
+// 
+TODO(ricardoq): enable test once the bug that fixes hardware overlay gets fixed. See: http://b/120557146 src/chromiumos/tast/local/bundles/cros/arc/hwoverlay_tablet.go:54: 
+
+// 
+TODO(ricardoq): Add clamshell mode tests. src/chromiumos/tast/local/bundles/cros/arc/low_memory_killer.go:32: 
+
+// 
+TODO(http://b/172091239): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/memory_android_perf.go:35: 
+
+// 
+TODO(b:176944540): Re-enable the test once it is fixed, otherwise, delete it. src/chromiumos/tast/local/bundles/cros/arc/memory_shifting_perf.go:32: 
+
+// 
+TODO(b/146081124): Reenable the test when this test stops hanging ARC++ devices. src/chromiumos/tast/local/bundles/cros/arc/memory_shifting_perf.go:35: 
+
+// 
+TODO(b/179502257): Reenable the test on vm when it isn't broken. src/chromiumos/tast/local/bundles/cros/arc/mini_container_state.go:25: 
+
+// 
+TODO(crbug.com/952125): Consider to relax the SoftwareDeps. src/chromiumos/tast/local/bundles/cros/arc/motioninput/motion_input_tester.go:117: 
+
+// 
+TODO(b/156655077): Remove filtering of batched events after the bug is fixed. src/chromiumos/tast/local/bundles/cros/arc/mount_obb.go:35: 
+
+// 
+TODO(hidehiko,nya): registration_test.go is too strict. src/chromiumos/tast/local/bundles/cros/arc/mount_obb.go:234: 
+
+// 
+TODO(crbug.com/980349): Remove verbose log when the root cause src/chromiumos/tast/local/bundles/cros/arc/mtp.go:61: 
+//
+TODO(b/187740535): Investigate and reserve time for cleanup. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:95: 
+
+// 
+TODO(ruanc): There is no hardware dependency for multi-display. Move back to the mainline group once it is supported. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:117: 
+
+// 
+TODO(ruanc): This part can be removed if hardware dependency for multi-display is available. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:140: 
+
+// 
+TODO(crbug.com/1002958): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:529: 
+
+// 
+TODO: Check display power state to avoid setting display power redundantly. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:667: 
+
+// 
+TODO(b/161859617): Drag maximized window is disabled on ARC currently. src/chromiumos/tast/local/bundles/cros/arc/multi_display.go:679: 
+
+// 
+TODO(b/161859617): Drag maximized window is disabled on ARC currently. src/chromiumos/tast/local/bundles/cros/arc/native_bridge.go:5:
+
+// 
+TODO(crbug/1142830) - Change all native terms when Android's subcomponents src/chromiumos/tast/local/bundles/cros/arc/per_app_density.go:23: 
+
+// 
+TODO(b/150909711): Enable this test after fix. src/chromiumos/tast/local/bundles/cros/arc/perf_boot_service.go:60: 
+
+// 
+TODO(niwa): Clean this up after making PerfBoot reboot DUT. src/chromiumos/tast/local/bundles/cros/arc/perf_boot_service.go:68: 
+
+// 
+TODO(niwa): Check if we should use GAIA login instead of fake login. src/chromiumos/tast/local/bundles/cros/arc/perf_boot_service.go:70: 
+
+// 
+TODO(niwa): Check if we should really use KeepState. src/chromiumos/tast/local/bundles/cros/arc/physical_keyboard.go:212: 
+
+// 
+TODO(b:174259561): There are some edge cases which this test cannot catch the actual failure. For example, src/chromiumos/tast/local/bundles/cros/arc/pip.go:33: 
+
+// 
+TODO(crbug.com/949754): Get this value in runtime. src/chromiumos/tast/local/bundles/cros/arc/pip.go:39: 
+
+// 
+TODO(ricardoq): Remove this constant once the bug gets fixed. src/chromiumos/tast/local/bundles/cros/arc/pip.go:101: 
+
+// 
+TODO(b/179503195): Reenable after test is fixed src/chromiumos/tast/local/bundles/cros/arc/pip.go:110: 
+
+// 
+TODO(takise): This can hide the line number on which the test actually fails. Remove this. src/chromiumos/tast/local/bundles/cros/arc/pip.go:205: 
+
+// 
+TODO(b:156685602) There are still some tests not yet working in tablet mode. Remove these checks once R is fully working. src/chromiumos/tast/local/bundles/cros/arc/pip.go:328: 
+
+// 
+TODO(crbug.com/949754): Get this value in runtime. src/chromiumos/tast/local/bundles/cros/arc/pip.go:437: 
+
+// 
+TODO(takise): Currently there's no way to know if "everything's been done and nothing's changed on both Chrome and Android side". src/chromiumos/tast/local/bundles/cros/arc/pip.go:457: 
+
+// 
+TODO(edcourtney): Test minimize via shelf icon, keyboard shortcut (alt-minus), and caption. src/chromiumos/tast/local/bundles/cros/arc/pip.go:596: 
+
+// 
+TODO(edcourtney): Until we can identify multiple Android windows from the same package, just wait for src/chromiumos/tast/local/bundles/cros/arc/pip.go:614: 
+
+// 
+TODO(edcourtney): Until we can identify multiple Android windows from the same package, just wait for src/chromiumos/tast/local/bundles/cros/arc/pip_energy_and_power.go:241: 
+
+// 
+TODO(https://crbug.com/1162385, b/177636800): enable it. src/chromiumos/tast/local/bundles/cros/arc/play_auto_install.go:119: 
+
+// 
+TODO(crbug.com/1030107): Add YouTube Music once configured on PAI server. src/chromiumos/tast/local/bundles/cros/arc/power_camera_preview_perf.go:174: 
+
+// 
+TODO(springerm): Make iteration count an optional command line parameter. src/chromiumos/tast/local/bundles/cros/arc/power_camera_recording_perf.go:57: 
+
+// 
+TODO(b/153129376): Extend test to record with 30 and 60 FPS. src/chromiumos/tast/local/bundles/cros/arc/pre_ime_key_event.go:158: 
+
+// 
+TODO(b/148193316): Remove the flag once it's enabled by default. src/chromiumos/tast/local/bundles/cros/arc/quarter_sized_window_zooming.go:80: 
+
+// 
+TODO(ricardoq): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/quarter_sized_window_zooming.go:122: 
+
+// 
+TODO(ruanc): Waiting for one second before taking screenshot. src/chromiumos/tast/local/bundles/cros/arc/removablemedia/removable_media.go:192: 
+
+// 
+TODO(youkichihosoi): Remove this check for legacy URIs once new URIs get supported. src/chromiumos/tast/local/bundles/cros/arc/resize_activity.go:28: 
+
+// 
+TODO(http://b/166827552): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/resize_activity.go:78: 
+
+// 
+TODO(crbug.com/1002958): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/resize_activity.go:136: 
+
+// 
+TODO(crbug.com/1062920): Wait for bounds here. src/chromiumos/tast/local/bundles/cros/arc/resize_activity.go:156: 
+
+// 
+TODO(crbug.com/1062920): Wait for bounds here. src/chromiumos/tast/local/bundles/cros/arc/resize_activity.go:239: 
+
+// 
+TODO(crbug.com/1062920): Wait for bounds here. src/chromiumos/tast/local/bundles/cros/arc/soft_input_mode.go:103: 
+
+// 
+TODO(tetsui): Use camera position for getting the default orientation. src/chromiumos/tast/local/bundles/cros/arc/split_view.go:32: 
+
+// 
+TODO(b/188754062): Add support for mouse input and remove the touch screen deps src/chromiumos/tast/local/bundles/cros/arc/surface_insets.go:44: 
+
+// 
+TODO(crbug.com/1002958) Replace with Ash API to enable clamshell mode once it gets fixed. src/chromiumos/tast/local/bundles/cros/arc/surface_insets.go:124: 
+
+// 
+TODO(crbug.com/1005010) : Do not hard code the calculation of caption position below. src/chromiumos/tast/local/bundles/cros/arc/task_manager.go:46: 
+//
+TODO(b/185606104): Identify end of task manager list. src/chromiumos/tast/local/bundles/cros/arc/task_manager.go:91: 
+
+// 
+TODO(b/186370767): Add task manager cleanup to Chrome.ResetState. src/chromiumos/tast/local/bundles/cros/arc/touch_input.go:72: 
+
+// 
+TODO(b/155500968): Investigate why a touched location on the touchscreen does not match src/chromiumos/tast/local/bundles/cros/arc/ui_automator.go:37: // This is a sample 
+TODO app available at: src/chromiumos/tast/local/bundles/cros/arc/uniform_scale_factor_non_maximized.go:31: 
+
+// 
+TODO(http://b/172089190): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/ureadahead_validation.go:57: 
+
+// 
+TODO(khmel): Add guest side validation. src/chromiumos/tast/local/bundles/cros/arc/video/accel_video.go:32:
+
+// 
+TODO(b/155138175): Remove devices from this list once the ARCVM HW encoder is enabled. src/chromiumos/tast/local/bundles/cros/arc/video/accel_video.go:39:
+
+// 
+TODO(b/155138243): Remove allowlist once VP8/9 HW encoding is enabled on all devices. src/chromiumos/tast/local/bundles/cros/arc/video/accel_video.go:224: 
+
+// 
+TODO(b/143190876): Don't write value to disk, as this can increase test flakiness. src/chromiumos/tast/local/bundles/cros/arc/video/accel_video.go:236: 
+
+// 
+TODO(b/143190876): Don't write value to disk, as this can increase test flakiness. src/chromiumos/tast/local/bundles/cros/arc/video_decode_accel_vd_vda.go:44: 
+
+// 
+TODO(crbug.com/911754): reenable this test once HDR VP9.2 is implemented. src/chromiumos/tast/local/bundles/cros/arc/video_encode_accel_perf.go:31: Fixture: "arcBooted", 
+
+// 
+TODO(akahuang): Implement new precondition to boot ARC and enable verbose at chromium. src/chromiumos/tast/local/bundles/cros/arc/vts_keymaster.go:22: 
+
+// 
+TODO(edmanp): crbug/1126302. Replace master by principal. src/chromiumos/tast/local/bundles/cros/arc/vts_keymaster.go:33: 
+
+// 
+TODO(edmanp): Download only one file for the current architecture. src/chromiumos/tast/local/bundles/cros/arc/vts_keymaster.go:149:
+
+// 
+TODO(crbug.com/946390): Migrate to gtest package once it supports ARC. src/chromiumos/tast/local/bundles/cros/arc/window_default_bounds.go:59: 
+
+// 
+TODO(crbug.com/1002958): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/window_manager_cuj.go:68: 
+
+// 
+TODO(http://b/149790068): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/arc/window_manager_cuj.go:130: 
+
+// 
+TODO(ricardoq): Wait for "tablet mode animation is finished" in a reliable way. src/chromiumos/tast/local/bundles/cros/arc/window_manager_cuj.go:714: 
+
+// 
+TODO(crbug.com/1010469): This tries to verify that nothing changes, which is very hard. src/chromiumos/tast/local/bundles/cros/arc/window_manager_cuj.go:750: 
+
+// 
+TODO(crbug.com/1010469): This tries to verify that nothing changes, which is very hard. src/chromiumos/tast/local/bundles/cros/arc/wm_resizable_conversion.go:247: 
+
+// 
+TODO(b/162387612): After the bug is fixed, compare w src/chromiumos/tast/local/bundles/cros/arc/wm_resizable_conversion.go:387: 
+
+// 
+TODO(b/162387612): After the bug is fixed, compare window bounds. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:63: 
+
+// 
+TODO(b/166637700): Remove this if a proper solution is found that doesn't require the display to be on. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:94: 
+
+// 
+TODO(b/166637700): Remove this if a proper solution is found that doesn't require the display to be on. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:189: 
+
+// 
+TODO(b/166637700): Remove this if a proper solution is found that doesn't require the display to be on. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:519: 
+
+// 
+TODO(b/188816051): Remove ash.TabletModeEnabled(ctx, tconn) if a solution is found for identifying the device in clamshell/ laptop mode using hardware/software dependency. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:671: 
+//
+TODO(b/178401320): Remove this if a proper solution is found to perform split screen on portrait oriented apps. src/chromiumos/tast/local/bundles/cros/arcappcompat/testutil/testutil.go:730: 
+
+// 
+TODO (b/188840879): Remove a.Command(ctx, "input", "stylus", "tap", XCoordinate, YCoordinate) if proper solution is found for it. src/chromiumos/tast/local/bundles/cros/assistant/better_onboarding_animation_perf.go:94: 
+
+// 
+TODO(b:178409604) add "Apps.StateTransition.AnimationSmoothness.Half.ClamshellMode" when it is recorded properly. src/chromiumos/tast/local/bundles/cros/assistant/bluetooth_queries.go:66: 
+
+// 
+TODO(crbug/1080363): remove polling. src/chromiumos/tast/local/bundles/cros/assistant/wifi_queries.go:66: 
+
+// 
+TODO(crbug/1080363): remove polling. src/chromiumos/tast/local/bundles/cros/audio/alsa_conformance.go:36: 
+
+// 
+TODO(yuhsuan): Tighten the ratio if the current version is stable. (b/136614687) src/chromiumos/tast/local/bundles/cros/audio/cras_perf.go:109: 
+
+// 
+TODO(b/165995912) remove the sleep once we can query src/chromiumos/tast/local/bundles/cros/audio/cras_perf.go:170: 
+
+// 
+TODO(crbug.com/996728): aarch64 is disabled before the kernel crash is fixed. src/chromiumos/tast/local/bundles/cros/audio/max98390.go:46:
+
+// 
+TODO(b/171217019): parse sound_card_init yaml to get ampCount. src/chromiumos/tast/local/bundles/cros/audio/ui_input_gain.go:60: 
+
+// 
+TODO(crbug/1123231): use better slider automation controls if possible, instead of keyboard controls. src/chromiumos/tast/local/bundles/cros/bluetooth/ui_toggle_from_bt_quicksettings.go:46: 
+
+// 
+TODO(b/188767517): Add unique identifiers to UI elements used in these tests src/chromiumos/tast/local/bundles/cros/camera/alignment_service.go:52: 
+
+// 
+TODO(b/166370953): Handle CRD timeout. src/chromiumos/tast/local/bundles/cros/camera/cca_ui_expert.go:86: 
+
+// 
+TODO(crbug.com/1039991): There are asynchronous mojo IPC calls happens src/chromiumos/tast/local/bundles/cros/camera/cca_ui_guest.go:38: 
+
+// 
+TODO(pihsun): We should call cca.ClearSavedDirs(ctx, cr) here to prevent src/chromiumos/tast/local/bundles/cros/camera/cca_ui_guest.go:53: 
+// 
+TODO(pihsun): Test take a photo. Currently app.TakeSinglePhoto fails src/chromiumos/tast/local/bundles/cros/camera/cca_ui_intent.go:52: 
+// 
+TODO(https://crbug.com/1058325): Change all mkv to mp4 once the migration is done. src/chromiumos/tast/local/bundles/cros/camera/cca_ui_intent.go:277: 
+// 
+TODO(crbug.com/980846): For intents, since it will close itself once the src/chromiumos/tast/local/bundles/cros/camera/cca_ui_intent.go:426: 
+// 
+TODO(b/139650048): We should verify if the temporary file is deleted src/chromiumos/tast/local/bundles/cros/camera/cca_ui_intent.go:533: 
+// 
+TODO(b/148995660): These lines are added since the test app sometimes will be minimized after src/chromiumos/tast/local/bundles/cros/camera/cca_ui_preview.go:55: 
+// 
+TODO(b/184131041): Guard the restart using a longer context so that src/chromiumos/tast/local/bundles/cros/camera/cca_ui_preview.go:64: 
+// 
+TODO(shik): Add the missing preview tests in go/cca-test: src/chromiumos/tast/local/bundles/cros/camera/cca_ui_qrcode.go:146: 
+// 
+TODO(b/172879638): Test invalid binary content. src/chromiumos/tast/local/bundles/cros/camera/cca_ui_record_video.go:377: 
+// 
+TODO(crbug.com/1140852): Remove the logging once we fully migrated to regular mp4. src/chromiumos/tast/local/bundles/cros/camera/cca_ui_record_video.go:381: 
+// 
+TODO(crbug.com/1140852): Remove fmp4 code path once we fully migrated to regular mp4. src/chromiumos/tast/local/bundles/cros/camera/cca_ui_stress.go:145: 
+// 
+TODO(b/182248415): Add variables to control per action parameters, like src/chromiumos/tast/local/bundles/cros/camera/cca_ui_stress.go:200: 
+// 
+TODO(b/182248415): Clear camera/ folder periodically, otherwise the disk src/chromiumos/tast/local/bundles/cros/camera/cca_ui_video_option_perf.go:172: 
+// 
+TODO(b/151047420): Collect ui latency data. src/chromiumos/tast/local/bundles/cros/camera/connector.go:41: 
+// 
+TODO(b/151270948): Temporarily disable ARC when running this test. src/chromiumos/tast/local/bundles/cros/camera/decode_accel_jpeg_perf.go:46:
+// 
+TODO(dstaessens@) Currently the performance tests decode JPEGs as fast as src/chromiumos/tast/local/bundles/cros/camera/gca/gca.go:343: 
+// 
+TODO(lnishan): Check the error. Currently Close() always returns an error. src/chromiumos/tast/local/bundles/cros/camera/gca_multi_camera.go:44: 
+// 
+TODO(lnishan): Get the input package to expose and generalize the functions for determining the device mode. src/chromiumos/tast/local/bundles/cros/camera/hal3/hal3.go:88: 
+// 
+TODO(b/163436311): Use cros_config to distinguish these cases after src/chromiumos/tast/local/bundles/cros/camera/hal3/hal3.go:189: 
+// 
+TODO(shik): Change the test binary to use --perf_log. src/chromiumos/tast/local/bundles/cros/camera/hal3/hal3.go:203: 
+// 
+TODO(b/169122360): Find a better way to reduce the flakiness. src/chromiumos/tast/local/bundles/cros/camera/hal3_module.go:23: 
+// 
+TODO(shik): Once cros_camera_test supports an external camera, src/chromiumos/tast/local/bundles/cros/camera/privacy_switch.go:66: 
+// 
+TODO(b/186374611) Remove all the logCommands and logFiles once we figure out why are we getting symbol lookup errors src/chromiumos/tast/local/bundles/cros/crash/crash/crash.go:170: 
+// 
+TODO(crbug.com/1043004): Deduplicate with the similar function in src/chromiumos/tast/local/bundles/cros/crash/crash/crash.go:254: 
+// 
+TODO(crbug.com/970930): include system log message in this error. src/chromiumos/tast/local/bundles/cros/crash/crash/crash.go:535: 
+// 
+TODO(crbug.com/970930): Verify the result. src/chromiumos/tast/local/bundles/cros/crash/crash/crash.go:558: 
+// 
+TODO(crbug.com/970930): Check that crash reporter announces minidump location to the log like "Stored minidump to /var/...." src/chromiumos/tast/local/bundles/cros/crash/crash/crash.go:590: 
+// 
+TODO(yamaguchi): Refactor to this after Go version >= 1.12 src/chromiumos/tast/local/bundles/cros/crash/kernel_iwlwifi_error.go:50: 
+// 
+TODO(crbug.com/950346): Remove the below check and add dependency on Intel WiFi src/chromiumos/tast/local/bundles/cros/crash/reporter_crash.go:89: 
+// 
+TODO(crbug.com/1011932): Investigate if this is necessary src/chromiumos/tast/local/bundles/cros/crash/unclean_shutdown_collector.go:114: 
+// 
+TODO(https://crbug.com/1083533): Make this a warning so it isn't as silent. src/chromiumos/tast/local/bundles/cros/crash/user.go:560: 
+// 
+TODO(crbug.com/970930): Check generated report sent. src/chromiumos/tast/local/bundles/cros/crostini/app_android_studio.go:73: 
+//
+TODO(jinrongwu): UI test on android studio code. src/chromiumos/tast/local/bundles/cros/crostini/app_eclipse.go:63: 
+// 
+TODO(jinrongwu): modify this once it is possible to control Eclipse. src/chromiumos/tast/local/bundles/cros/crostini/app_eclipse.go:91: 
+//
+TODO(jinrongwu): UI test on eclipse. src/chromiumos/tast/local/bundles/cros/crostini/cpu_perf.go:69: 
+// 
+TODO(dverkamp): sysbench is not currently built on arm platforms, src/chromiumos/tast/local/bundles/cros/crostini/data/toolkit_gtk3_demo.py:14:# 
+TODO(crbug.com/994009): Prefer to use maximize, which doesn't work currently. src/chromiumos/tast/local/bundles/cros/crostini/data/toolkit_qt5_demo.py:14:# 
+TODO(crbug.com/994009): Prefer to use maximize, which doesn't work currently. src/chromiumos/tast/local/bundles/cros/crostini/data/toolkit_tkinter_demo.py:12:# 
+TODO(crbug.com/994009): Prefer to use maximize, which doesn't work currently. src/chromiumos/tast/local/bundles/cros/crostini/disk_io_perf.go:37: 
+// 
+TODO(crbug.com/1124920): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/crostini/display_density.go:122: 
+// 
+TODO(hollingum): Find a better way to pass environment vars to a container command (rather than invoking sh). src/chromiumos/tast/local/bundles/cros/crostini/icon_and_username.go:91: 
+// 
+TODO(jinrongwu): verify the icon of Crostini Terminal app. src/chromiumos/tast/local/bundles/cros/crostini/launcher.go:29: 
+// 
+TODO(hollingum): This field is redundant. Add an autotest api that src/chromiumos/tast/local/bundles/cros/crostini/mouse_perf.go:58: 
+// 
+TODO(hollingum): put some absolute positioning in the API. src/chromiumos/tast/local/bundles/cros/crostini/mouse_perf.go:130: 
+// 
+TODO(hollingum): For some reason every alternate sample shows no change from the previous. Ignore them until we figure out why. src/chromiumos/tast/local/bundles/cros/crostini/network_perf.go:147: 
+// 
+TODO(cylee): Consolidate similar util function in other test files. src/chromiumos/tast/local/bundles/cros/crostini/network_perf.go:182: 
+// 
+TODO(cylee): remove the installation code once CL:1389056 is submitted. src/chromiumos/tast/local/bundles/cros/crostini/share_folder_zip_file.go:143: 
+// 
+TODO(jinrongwu): this should be uncommented once crbug/1205692 is resolved. src/chromiumos/tast/local/bundles/cros/crostini/startup_perf.go:52: 
+// 
+TODO(hollingum): Refactor to artifact-style setup and remove this. src/chromiumos/tast/local/bundles/cros/crostini/startup_perf.go:74: 
+// 
+TODO(hollingum): Refactor to allow better re-use of the crostini precondition. src/chromiumos/tast/local/bundles/cros/dev/remote_desktop.go:52: 
+// 
+TODO(b/151111783): This is a speculative fix to limit the number of sessions. It src/chromiumos/tast/local/bundles/cros/dev/remote_desktop.go:122: 
+// 
+TODO(shik): The button names only work in English locale, and adding src/chromiumos/tast/local/bundles/cros/diagnostics/routine_section.go:69: 
+// 
+TODO(crbug/1174688): Detect this through a routine process instead of relying on the UI. src/chromiumos/tast/local/bundles/cros/example/keyboard.go:85: 
+// 
+TODO(yamaguchi): Change back to Error() once the flakiness is fixed. src/chromiumos/tast/local/bundles/cros/example/profiler.go:35: 
+// 
+TODO(crbug.com/996728): aarch64 is disabled before the kernel crash is fixed. src/chromiumos/tast/local/bundles/cros/example/touch.go:55: 
+// 
+TODO(ricardoq): This page might change/break in the future. If so, a built-in src/chromiumos/tast/local/bundles/cros/factory/goofy.go:112: 
+// 
+TODO(b/150189948): Support installing toolkit from artifacts src/chromiumos/tast/local/bundles/cros/filemanager/drivefs_google_doc.go:54: 
+// 
+TODO(crbug/1112246): Reduce refresh period once push notifications fixed. src/chromiumos/tast/local/bundles/cros/filemanager/freeze_fuse_service.go:49: 
+// 
+TODO(crbug.com/1168360): Don't restart Chrome after tconn survives suspend/resume. src/chromiumos/tast/local/bundles/cros/firmware/acvp.go:1081: 
+// 
+TODO(b/141372763): cmd.Cmd should actually be something empty. src/chromiumos/tast/local/bundles/cros/firmware/fwupd_detect_ps175.go:38: 
+// 
+TODO(https://crbug.com/1198060): replace with PS175 feature src/chromiumos/tast/local/bundles/cros/firmware/utils_service.go:118: 
+// 
+TODO(kmshelton): Interpret key events (likely with a third-party library), src/chromiumos/tast/local/bundles/cros/graphics/connector.go:27: 
+// 
+TODO(b:161190931): Unmark dedede once it is fixed. src/chromiumos/tast/local/bundles/cros/graphics/dawn.go:30: 
+// 
+TODO(crbug.com/1031054): Re-enable once binaries are built again. src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:64: 
+// 
+TODO(ihf): reenable when smoke.triangle is not flaky anymore on coral/boxton b/149329522 src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:76:
+// 
+TODO(andrescj): consider moving this to utils.go and adding tests for it. src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:96:
+// 
+TODO(andrescj): consider moving this to utils.go and adding tests for it. src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:165: 
+// 
+TODO(andrescj): since cmd.Run() returns an error, maybe we should look src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:216: 
+// 
+TODO(andrescj): port GraphicsTest initialization and clean up from src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:236: 
+// 
+TODO(andrescj): also extract/log the following in the configuration per src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:252: 
+// 
+TODO(andrescj): stop services per graphics_dEQP initialization - ui and src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:267: 
+// 
+TODO(andrescj): add the GPU type to this log message. src/chromiumos/tast/local/bundles/cros/graphics/deqp.go:280: 
+// 
+TODO(andrescj): maybe output some counts, like # passes, # failures, src/chromiumos/tast/local/bundles/cros/graphics/fps.go:63: 
+// 
+TODO(crbug.com/1031054): Do we need to care about crtc 0 and seq? src/chromiumos/tast/local/bundles/cros/graphics/fps.go:111: 
+// 
+TODO(crbug.com/1031054): Restore to 0.2 after oak switches to 4.19 src/chromiumos/tast/local/bundles/cros/graphics/fps.go:190: 
+// 
+TODO(crbug.com/1031054): re-enable stddev check if we can find meaningful bound. src/chromiumos/tast/local/bundles/cros/graphics/glbench.go:296: 
+// 
+TODO(oka): Original test additionally exports the same metric with another name src/chromiumos/tast/local/bundles/cros/graphics/glbench.go:327: 
+// 
+TODO(ihf): these really should not write any images src/chromiumos/tast/local/bundles/cros/graphics/igt.go:399: 
+// 
+TODO(markyacoub): Many tests have igt_require_intel(), which automatically skips src/chromiumos/tast/local/bundles/cros/graphics/kmsvnc_connect.go:89: 
+// 
+TODO(b/177965296): handle rotation on tablet devices? src/chromiumos/tast/local/bundles/cros/graphics/smoke.go:39: 
+// 
+TODO(pwang): Remove display_backlight once crbug.com/950346 support hardware dependency. src/chromiumos/tast/local/bundles/cros/graphics/smoke.go:60: 
+// 
+TODO(pwang): Switch to use hardware dependency once it is ready. src/chromiumos/tast/local/bundles/cros/graphics/vaapi_unittest.go:36: SoftwareDeps: []string{"chrome", "no_qemu", "vaapi"}, 
+// 
+TODO(crbug.com/1080871): Remove no_qemu SoftwareDeps. src/chromiumos/tast/local/bundles/cros/hardware/memtester_slow.go:40: 
+// 
+TODO(tast-owners): Switch this to perform 100 iterations and make it run during hardware src/chromiumos/tast/local/bundles/cros/health/diagnostics_run.go:70: 
+// 
+TODO(http://b/175305207): some zork nvme controllers lock up src/chromiumos/tast/local/bundles/cros/health/probe_backlight_info.go:28: 
+// 
+TODO(http://b/182185718): One kip device does not report having a backlight src/chromiumos/tast/local/bundles/cros/health/probe_system_info.go:78: 
+// 
+TODO(crbug/1135261): Remove these explicit values checks from the test src/chromiumos/tast/local/bundles/cros/hwsec/attestation.go:107: 
+// 
+TODO(b/165426637): Enable it after we inject the fake device policy with customer ID. src/chromiumos/tast/local/bundles/cros/hwsec/attestation_no_external_server.go:142: 
+// 
+TODO(b/165426637): Enable it after we inject the fake device policy with customer ID. src/chromiumos/tast/local/bundles/cros/hwsec/challenge_response_mount.go:182: 
+// 
+TODO(crbug.com/1054004); Remove after Tast starts to guarantee that. src/chromiumos/tast/local/bundles/cros/hwsec/dictionary_attack_lockout_reset_tpm1.go:38: 
+// 
+TODO(b/181291715): Determine if we still want this test, or we want a more accurate measure of the effectiveness src/chromiumos/tast/local/bundles/cros/hwsec/dictionary_attack_lockout_reset_tpm1.go:105: 
+// 
+TODO(b/181291715): Change it to the right expectation before re-enabling the test, if we ever want to keep this test. src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_dead_keys.go:59: 
+// 
+TODO(b/162292283): Make vkb.TapKeys() less flaky when the VK changes src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_dead_keys.go:89: 
+// 
+TODO(b/162292283): Make vkb.TapKeys() less flaky when the VK changes src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_english_settings.go:94: 
+// 
+TODO(b/172498469): Change settings via Chrome OS settings page after we migrate settings to there. src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_handwriting.go:123: 
+// 
+TODO(crbug/1173252): Clean up states within Chrome using preconditions. src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_input_fields.go:100: 
+// 
+TODO(b/177777412): Enable VK typing tests on auto-cap fields. src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_input_fields.go:101: 
+// 
+TODO(b/182960492): Enable vk typing test on '*' char on number input field. src/chromiumos/tast/local/bundles/cros/inputs/virtual_keyboard_speech.go:73: 
+// 
+TODO(crbug/1173252): Clean up states within Chrome using preconditions. src/chromiumos/tast/local/bundles/cros/kernel/config_verify.go:181: 
+// 
+TODO(crbug.com/1061514): Start enabling these. src/chromiumos/tast/local/bundles/cros/kiosk/autostart.go:67: 
+// 
+TODO: kamilszarek@ - turn that into a default Kiosk mode fixture src/chromiumos/tast/local/bundles/cros/lacros/app_launcher_launch.go:38: 
+// 
+TODO(crbug.com/1127165): Remove this when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/lacros/basic.go:42: 
+// 
+TODO(crbug.com/1198252): Should be removed when the issue is fixed. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/analyze.go:56:
+// 
+TODO(crbug.com/1140906): Remove this code (and this file) when we figure out src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/gpu_cuj.go:196: 
+// 
+TODO(crbug.com/1067535): Subtract -1 to ensure drag-resize occurs for now. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/gpu_cuj.go:255: 
+// 
+TODO(edcourtney): Sometimes the accessibility tree isn't populated for lacros chrome, which causes this code to fail. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/gpu_cuj.go:280: 
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/gpu_cuj.go:329:
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/metrics.go:281: 
+// 
+TODO: Consider extending this to also provide data where the population is the metric itself. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/metrics.go:349:
+// 
+TODO(crbug.com/1140906): We only output custom metrics based on traces on eve. src/chromiumos/tast/local/bundles/cros/lacros/gpucuj/metrics.go:388: 
+// 
+TODO(https://crbug.com/1162385, b/177636800): Enable systrace again src/chromiumos/tast/local/bundles/cros/lacros/octane.go:65: 
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/lacros/shelf_launch.go:52: 
+// 
+TODO(crbug.com/1127165): Remove this when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/lacros/speedometer.go:70: 
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/launcher/search_built_in_apps.go:47: 
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/launcher/search_results.go:69: 
+// 
+TODO (crbug/1126816): Showoff help results in Launcher Search. src/chromiumos/tast/local/bundles/cros/mlservice/web_handwriting_recognition.go:51: 
+// 
+TODO(https://crbug.com/1177374): Remove the below feature when no longer needed. src/chromiumos/tast/local/bundles/cros/mlservice/web_handwriting_recognition_not_supported.go:49: 
+// 
+TODO(https://crbug.com/1177374): Remove the below feature when no longer needed. src/chromiumos/tast/local/bundles/cros/nearbyshare/cros_to_phone_high_vis.go:30: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/cros_to_phone_in_contacts.go:29: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/cros_to_phone_in_contacts.go:104: 
+// 
+TODO(b/179309645): Remove UI-based Android controls once API control is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/phone_to_cros_high_vis.go:33: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/phone_to_cros_high_vis.go:148: 
+// 
+TODO(crbug/1173190): Remove polling when we can confirm the transfer status with public test functions. src/chromiumos/tast/local/bundles/cros/nearbyshare/phone_to_cros_in_contacts.go:32: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/phone_to_cros_not_visible.go:31: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/nearbyshare/smoke_snippet_library.go:26: 
+// 
+TODO(crbug/1127165) Move to fixture when data is available. src/chromiumos/tast/local/bundles/cros/network/basic_profile_properties.go:21: 
+// 
+TODO(https://crbug.com/1195793, b/184564123): re-enable once shill crashes are fixed. src/chromiumos/tast/local/bundles/cros/network/configure_service_for_user_profile.go:29: 
+// 
+TODO(https://crbug.com/1195793, b/184564123): re-enable once shill crashes are fixed. src/chromiumos/tast/local/bundles/cros/network/default_profile_services.go:59: 
+// 
+TODO(oka): It's possible that the default profile has been src/chromiumos/tast/local/bundles/cros/network/ethernet_8021x.go:34: 
+// 
+TODO(https://crbug.com/1195793, b/184564123): re-enable once shill crashes are fixed. src/chromiumos/tast/local/bundles/cros/network/ethernet_static_ip.go:71: 
+// 
+TODO(crbug/1027742): Shorten the timeout after the root cause of long IP waiting time is found. src/chromiumos/tast/local/bundles/cros/network/ethernet_static_ip.go:93: 
+// 
+TODO(oka): It's possible that the default profile has been src/chromiumos/tast/local/bundles/cros/network/patchpanel_client/patchpanel_client.go:35:
+// 
+TODO(crbug.com/1135106): Implement missing patchpanel D-Bus API methods. src/chromiumos/tast/local/bundles/cros/network/set_usb_ethernet_mac_address_source.go:45:
+// 
+TODO(crbug/1012367): Add these hardware dependencies when Tast will support them. src/chromiumos/tast/local/bundles/cros/network/shill_init_logout_script.go:53: 
+// 
+TODO (b:159063029) Add a logout function in chrome.go and use it here src/chromiumos/tast/local/bundles/cros/peripherals/launch_app_from_accelerator.go:77: 
+// 
+TODO(joonbug): Find a suitable polling target for this instead of sleep. src/chromiumos/tast/local/bundles/cros/platform/bootperf/metrics_util.go:34: 
+// 
+TODO(b:182094511): Move the statistics to a subdirectory of /tmp src/chromiumos/tast/local/bundles/cros/platform/bootperf/metrics_util.go:475: 
+// 
+TODO(b:181084968): Remove this once we are convinced RTC code works better. src/chromiumos/tast/local/bundles/cros/platform/bootperf/metrics_util.go:517: 
+// 
+TODO(b:181084548): This is somewhat inaccurate, as this excludes power sequencing. src/chromiumos/tast/local/bundles/cros/platform/bootperf/metrics_util.go:539: 
+// 
+TODO(b:181084548): Drop the "_rtc" suffix once we remove the system time metrics above. src/chromiumos/tast/local/bundles/cros/platform/crosdisks/sshfs.go:118: 
+// 
+TODO(crbug.com/898341): Worth adding tests to verify behavior on server shutting down/disconnecting, src/chromiumos/tast/local/bundles/cros/platform/dlc/util.go:176: 
+// 
+TODO(kimjae): Fix dlcservice_util to throw error when dumping fails. src/chromiumos/tast/local/bundles/cros/platform/heavy_memory_user.go:20: 
+// 
+TODO(http://b/172075721): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/platform/mempressure_user.go:24: 
+// 
+TODO(http://b/172074282): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/platform/perf_etm.go:163: 
+// 
+TODO(b/163172096): Change to period 1000 to improve the quality of the profile when perf inject hang is fixed. src/chromiumos/tast/local/bundles/cros/platform/perf_etm.go:176: 
+// 
+TODO(b/168574788, b/163171598): Enable Last branch sample src/chromiumos/tast/local/bundles/cros/platform/perfetto_system_tracing.go:84: 
+// 
+TODO(chinglinyu): really validate the trace data content. src/chromiumos/tast/local/bundles/cros/platform/screen_latency.go:31:
+// 
+TODO(mblsha): See the http://go/project-slate-handover for future direction info. src/chromiumos/tast/local/bundles/cros/platform/screenlatency/screenlatency.go:23: 
+// 
+TODO(mblsha): Ideally we should investigate how to get per-frame src/chromiumos/tast/local/bundles/cros/platform/screenlatency/screenlatency.go:30: 
+// 
+TODO(mblsha): Add debug log command so the Android app could send debug information directly to Tast. src/chromiumos/tast/local/bundles/cros/platform/screenlatency/screenlatency.go:46: 
+// 
+TODO(mblsha): Update Android app to rename this field to 'lines'. src/chromiumos/tast/local/bundles/cros/platform/screenlatency/screenlatency.go:145: 
+// 
+TODO(mblsha): Take into account that simulating a keypress is not instant and takes 50ms. src/chromiumos/tast/local/bundles/cros/policy/accessibility_policies.go:37: 
+// 
+TODO(crbug.com/1186655): Find a way to close/avoid the dialog about disabling autoclick. src/chromiumos/tast/local/bundles/cros/policy/allow_deleting_browser_history.go:90: 
+// 
+TODO(https://crbug.com/1158773): Use regex in the node names in the AllowDeletingBrowserHistory policy test. src/chromiumos/tast/local/bundles/cros/policy/arc_backup_restore_service_enabled.go:29: 
+// 
+TODO(http://b/172073846): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/policy/audio_capture_allowed.go:118: 
+// 
+TODO(crbug.com/1197511): investigate why this is needed. src/chromiumos/tast/local/bundles/cros/policy/block_third_party_cookies.go:132: 
+// 
+TODO(crbug.com/1186217): Verify that third party cookies are actually blocked. src/chromiumos/tast/local/bundles/cros/policy/default_geolocation_setting.go:135: 
+// 
+TODO(crbug.com/1197511): investigate why this is needed. src/chromiumos/tast/local/bundles/cros/policy/developer_tools_availability.go:24: 
+// 
+TODO(crbug/1125548): add functionality to verify policy with force installed extension. src/chromiumos/tast/local/bundles/cros/policy/disable_screenshots_extension.go:127: 
+// 
+TODO(crbug:1159824): Remove once test will be stable. src/chromiumos/tast/local/bundles/cros/policy/disable_screenshots_hotkey.go:24: 
+// 
+TODO(crbug.com/1125556): check whether screenshot can be taken by extensions APIs. src/chromiumos/tast/local/bundles/cros/policy/images_for_url_check.go:26:
+// 
+TODO(crbug.com/1125571): investigate using an easier filter like "*" in the allow/deny-listing policies along with DefaultImagesSetting policy. src/chromiumos/tast/local/bundles/cros/policy/incognito_mode_availability.go:131: 
+// 
+TODO(crbug.com/1043875): check if windows are created as expected src/chromiumos/tast/local/bundles/cros/policy/popups_for_url_check.go:28:
+// 
+TODO(crbug.com/1125586): investigate using an easier filter like "*" in the allow/deny-listing policies along with DefaultPopupsSetting policy. src/chromiumos/tast/local/bundles/cros/policy/secondary_google_account_signin_allowed.go:26: Desc: "Test behavior of SecondaryGoogleAccountSigninAllowed policy: check if Add account button is restricted based on the value of the policy", 
+// 
+TODO(chromium:1128915): Add test cases for signin screen. src/chromiumos/tast/local/bundles/cros/policy/url_check.go:39: 
+// 
+TODO(crbug.com/1101928): remove once URLBlacklist is no longer supported. src/chromiumos/tast/local/bundles/cros/policy/url_check.go:98: 
+// 
+TODO(crbug.com/1101928): remove once URLWhitelist is no longer supported. src/chromiumos/tast/local/bundles/cros/policy/user_avatar_image.go:182:
+// 
+TODO(crbug.com/1188690): Remove when the bug is fixed. src/chromiumos/tast/local/bundles/cros/qemu/validity.go:44: 
+// 
+TODO(crbug/998361): Replace with "Haswell, no TSX" once lab is ready. src/chromiumos/tast/local/bundles/cros/qemu/validity.go:51: 
+// 
+TODO(crbug/1002311): consider long term plan to monitor CPU flags. src/chromiumos/tast/local/bundles/cros/scanapp/scan.go:76: 
+// 
+TODO(b/181773386): Change this to black and white when the virtual src/chromiumos/tast/local/bundles/cros/sched/core_sched_tag.go:104:// verifyTags verifies the tags of all renderer and ARC processes (
+    TODO: add ARC). src/chromiumos/tast/local/bundles/cros/screenshot/screen_diff.go:110: 
+// 
+TODO(crbug.com/1173812): Once ThoroughConfigs has more than one element, switch to ThoroughConfigs() src/chromiumos/tast/local/bundles/cros/security/microcode.go:36: 
+// 
+TODO(crbug.com/1092389): This test only knows how to check Intel platforms src/chromiumos/tast/local/bundles/cros/security/module_locking.go:38: altModuleFile = "kernel/kernel/test_module.ko" 
+// 
+TODO(crbug.com/908226): remove src/chromiumos/tast/local/bundles/cros/security/mtab.go:56: 
+// 
+TODO(crbug.com/1033637): support ARCVM. src/chromiumos/tast/local/bundles/cros/security/mtab.go:151: "proc", 
+// 
+TODO(crbug.com/1204115): Re-enable "proc" testing once 3.18 kernels are out. src/chromiumos/tast/local/bundles/cros/security/sandboxing/process_utils.go:57: "bash", 
+// 
+TODO: check against script name instead src/chromiumos/tast/local/bundles/cros/security/selinux/files_test_internal_home.go:32: 
+// 
+TODO(crbug.com/955116): test file created by other tests but not gets cleaned-up correctly. src/chromiumos/tast/local/bundles/cros/security/selinux/files_test_internal_home.go:51: 
+// 
+TODO(fqj, b/130011394) src/chromiumos/tast/local/bundles/cros/security/selinux/processes_helper.go:65: 
+// 
+TODO: check ESRCH instead of string when golang updates to have such builtin functions. src/chromiumos/tast/local/bundles/cros/security/selinux_audit_basic.go:72: 
+// 
+TODO(yoshiki): Replace this with croslog command. src/chromiumos/tast/local/bundles/cros/security/selinux_files_data_dir.go:142: 
+//
+TODO(vraheja): Investigate why SELinux contexts mismatch for few dirs. http://b/162202740 src/chromiumos/tast/local/bundles/cros/security/shared_filesystem_state.go:101: 
+
+// 
+TODO(crbug/1205034): Change to markdown when it is successfully uploaded src/chromiumos/tast/local/bundles/cros/security/shared_filesystem_state.go:155: 
+
+// 
+TODO(crbug/1205038): Is sdcard found often? src/chromiumos/tast/local/bundles/cros/security/shared_filesystem_state.go:331: 
+
+// 
+TODO(crbug/1207940): Remove blocked term here. src/chromiumos/tast/local/bundles/cros/security/stateful_files.go:50: 
+
+// 
+TODO(crbug.com/905719): Check for a specific user:group and mode. src/chromiumos/tast/local/bundles/cros/security/stateful_files.go:82: 
+
+// 
+TODO(chromium:1197973): Re-add permissions checks for /var/lib/metrics src/chromiumos/tast/local/bundles/cros/security/stateful_files.go:140: 
+
+// 
+TODO(crbug.com/1083285): Avoid creating this file with 0666 permissions. src/chromiumos/tast/local/bundles/cros/security/toolchain_options.go:147: 
+
+// 
+TODO(crbug.com/1077056): Remove once DLC provisioning is in place for F20. src/chromiumos/tast/local/bundles/cros/security/userfiles/userfiles.go:70: 
+
+// 
+TODO(crbug.com/1056294): Re-add 'chk.Mode(0710)' below after the source of flake src/chromiumos/tast/local/bundles/cros/security/userfiles/userfiles.go:75: 
+
+// 
+TODO(crbug.com/971919): Add additional vault checks from security_ProfilePermissions? src/chromiumos/tast/local/bundles/cros/session/cmp/proto.go:19: 
+
+// 
+TODO(crbug.com/1040909): use diff+protocmp for compare protobufs. src/chromiumos/tast/local/bundles/cros/session/ownership_taken.go:105: 
+
+// 
+TODO(crbug.com/1103816) - remove whitelist support when no longer src/chromiumos/tast/local/bundles/cros/storage/full_qualification_stress.go:443:
+
+// 
+TODO(dlunev, abergman): figure out if we need to have a different way src/chromiumos/tast/local/bundles/cros/storage/stress/disk_info.go:233: 
+
+// 
+TODO(dlunev): make sure the format is the same for all kernel versions. src/chromiumos/tast/local/bundles/cros/storage/stress/disk_info.go:242:
+
+// 
+TODO(dlunev): We should consider mmc devices only if they are 'root' devices src/chromiumos/tast/local/bundles/cros/storage/stress/fio_result.go:150:
+
+// 
+TODO(abergman): can we avoid creating map for each nest level? src/chromiumos/tast/local/bundles/cros/storage/stress/fio_result.go:186:
+
+// 
+TODO(abergman): Could we use gopsutil? src/chromiumos/tast/local/bundles/cros/typec/typecutils/utils.go:148: 
+
+// 
+TODO(pmalani): Determine how many ports a device supports, instead of src/chromiumos/tast/local/bundles/cros/ui/chrome_crash_logged_in_direct.go:60:// named "TastMode". 
+TODO(https://crbug.com/1201467): Rename to src/chromiumos/tast/local/bundles/cros/ui/chrome_crash_not_logged_in_direct.go:59:// named "TastMode". 
+TODO(https://crbug.com/1201467): Rename to src/chromiumos/tast/local/bundles/cros/ui/chrome_pip_energy_and_power.go:248: 
+
+// 
+TODO(https://crbug.com/1162385, b/177636800): enable it. src/chromiumos/tast/local/bundles/cros/ui/chromecrash/crash.go:402: 
+
+// 
+TODO(crbug.com/1080365): Remove this once flake is resolved; it's kinda src/chromiumos/tast/local/bundles/cros/ui/chromecrash/crash.go:614: 
+
+// 
+TODO(crbug.com/1139494) Find root cause and remove this workaround. src/chromiumos/tast/local/bundles/cros/ui/conference/googlemeet.go:652:
+
+// 
+TODO: Merge to cuj.UIActionHandler and introduce UIActionHandler in this test. See src/chromiumos/tast/local/bundles/cros/ui/cuj/battery_info_tracker.go:41: 
+
+// 
+TODO(b/180915240): find the way to measure power data on those devices. src/chromiumos/tast/local/bundles/cros/ui/cuj/display_info.go:27: 
+
+// 
+TODO(yichenz): Consider about the multiple displays. src/chromiumos/tast/local/bundles/cros/ui/cujrunner/runner.go:116: 
+
+// 
+TODO(crbug/1113053): Needs a way to input what metrics to measure and src/chromiumos/tast/local/bundles/cros/ui/desks_trackpad_swipe_perf.go:98: 
+
+// 
+TODO(sammiequon): Add an API to properly wait for the end animation to finish. src/chromiumos/tast/local/bundles/cros/ui/desktop_control.go:44: 
+
+// 
+TODO(crbug.com/1163981): remove "unstable" once we see stability on all platforms. src/chromiumos/tast/local/bundles/cros/ui/desktop_control.go:218: // Just wait 1 second. 
+TODO(crbug.com/1099502): replace by a test API. src/chromiumos/tast/local/bundles/cros/ui/desktop_control.go:228: 
+
+// 
+TODO(crbug.com/1141164): add notification-related metrics once it's src/chromiumos/tast/local/bundles/cros/ui/existing_user_login.go:81: 
+
+// 
+TODO(crbug/1109381): the password field isn't actually ready just yet when WaitState returns. src/chromiumos/tast/local/bundles/cros/ui/hotseat_animation.go:60: 
+
+// 
+TODO(https://crbug.com/1083068): when the flag shelf-hide-buttons-in-tablet is removed, delete this sub-test. src/chromiumos/tast/local/bundles/cros/ui/launcher_animation_perf.go:138: 
+
+// 
+TODO(oshima|mukai): run animation once to force creating a src/chromiumos/tast/local/bundles/cros/ui/launcher_animation_perf.go:149: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/ui/launcher_animation_perf.go:180: 
+
+// 
+TODO(mukai): find the way to wait more properly on the idleness of Ash. src/chromiumos/tast/local/bundles/cros/ui/login_perf.go:111: 
+
+// 
+TODO(crbug/1109381): the password field isn't actually ready just yet when WaitState returns. src/chromiumos/tast/local/bundles/cros/ui/meet_cuj.go:345: 
+
+// 
+TODO(crbug/1135239): test portrait orientation as well. src/chromiumos/tast/local/bundles/cros/ui/overview_perf.go:65: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/ui/overview_perf.go:266: 
+
+// 
+TODO(mukai): find the way to wait more properly on the idleness of Ash. src/chromiumos/tast/local/bundles/cros/ui/perfutil/run.go:168: 
+
+// 
+TODO(https://crbug.com/1162385, b/177636800): enable it. src/chromiumos/tast/local/bundles/cros/ui/quick_settings_lock_screen.go:89: 
+
+// 
+TODO(crbug/1156812): Remove once chrome.go has a way to clean up the lock screen state. src/chromiumos/tast/local/bundles/cros/ui/quick_settings_mic_gain_slider.go:43: 
+
+// 
+TODO(crbug/1123231): use better slider automation controls if possible, instead of keyboard controls. src/chromiumos/tast/local/bundles/cros/ui/split_view_resize_perf.go:83: 
+
+// 
+TODO(mukai): remove this when WebUITabStrip is enabled by default. src/chromiumos/tast/local/bundles/cros/ui/stadia_gameplay_cuj.go:32: 
+
+// 
+TODO(http://crbug/1144356): Test is disabled until it can be fixed src/chromiumos/tast/local/bundles/cros/ui/tablet_operations.go:52: 
+
+// 
+TODO(crbug.com/1168774): remove "unstable" once we see stability on all platforms. src/chromiumos/tast/local/bundles/cros/ui/tablet_operations.go:73: // known to be bad. 
+TODO(https://crbug.com/1054489): add them. src/chromiumos/tast/local/bundles/cros/ui/tablet_operations.go:75: // on some devices. 
+TODO(https://crbug.com/1168774): add this. src/chromiumos/tast/local/bundles/cros/ui/tabswitchcuj/tab_switch_cuj.go:103: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/ui/tabswitchcuj/tab_switch_cuj2.go:118: 
+
+// 
+TODO(crbug.com/1193417): remove setTimeout() after the bug is fixed. src/chromiumos/tast/local/bundles/cros/ui/task_switch_cuj.go:339: 
+
+// 
+TODO(mukai): make sure that the initial search result is the intended src/chromiumos/tast/local/bundles/cros/ui/ubertray_open_settings.go:42: 
+
+// 
+TODO(crbug/1099502): replace this with quicksettings.Show when retry is no longer needed. src/chromiumos/tast/local/bundles/cros/ui/unlock_perf.go:70: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/ui/window_cycle_perf.go:55: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/ui/window_cycle_perf.go:106: 
+
+// 
+TODO(crbug.com/1171056): Lacros may consume the Alt from Alt-tab after being maximized, without this sleep. src/chromiumos/tast/local/bundles/cros/ui/window_resize_perf.go:116: // Waiting for the resize-handle to appear. 
+TODO(mukai): find the right src/chromiumos/tast/local/bundles/cros/video/contents.go:33: 
+
+// 
+TODO(b/162437142): reenable on Zork when it does not hang forever. src/chromiumos/tast/local/bundles/cros/video/contents.go:49: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/contents.go:62: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/contents.go:122: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/contents.go:134: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/contents.go:146: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/contents.go:191: 
+
+// 
+TODO(andrescj): add tests for VP8 and VP9. src/chromiumos/tast/local/bundles/cros/video/contents.go:192: 
+
+// 
+TODO(andrescj): for non-composited tests, check that overlays were used. src/chromiumos/tast/local/bundles/cros/video/contents.go:200: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/video/decode/accel_video.go:55: 
+
+// 
+TODO(crbug.com/998464) Kernel crashes will currently cause remaining src/chromiumos/tast/local/bundles/cros/video/decode_accel.go:79: 
+
+// 
+TODO(b/138915749): Enable once decoding odd dimension videos is fixed. src/chromiumos/tast/local/bundles/cros/video/decode_accel.go:85: 
+
+// 
+TODO(b/138915749): Enable once decoding odd dimension videos is fixed. src/chromiumos/tast/local/bundles/cros/video/draw_on_canvas.go:45: 
+
+// 
+TODO(andrescj): move to graphics_nightly after the test is stabilized. src/chromiumos/tast/local/bundles/cros/video/draw_on_canvas.go:86: 
+
+// 
+TODO(andrescj): add tests for VP8 and VP9. src/chromiumos/tast/local/bundles/cros/video/encode/accel_video.go:45: 
+
+// 
+TODO(hiroh): Remove this and run both I420 and NV12 test cases in the regular video.EncodeAccel tests src/chromiumos/tast/local/bundles/cros/video/platform_decoding.go:38: 
+
+// 
+TODO(b/180615056): need Dynamic Resolution Change support to use resolution_change_500frames.vp9.ivf like vaapi src/chromiumos/tast/local/bundles/cros/video/platform_decoding.go:1055: 
+
+// 
+TODO(jchinlee): Move stop ui to a fixture to avoid stopping Chrome all the time once src/chromiumos/tast/local/bundles/cros/video/platform_decoding.go:1080: 
+
+// 
+TODO(jchinlee): Investigate saving failing frames. src/chromiumos/tast/local/bundles/cros/video/platform_decoding.go:1081: 
+
+// 
+TODO(jchinlee): Move verification logic out of tast. src/chromiumos/tast/local/bundles/cros/video/platform_decoding_test.go:362: 
+
+// 
+TODO(b/184683272): Reenable everywhere. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:489: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:506: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:523: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:540: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:557: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/platform_encoding.go:574: 
+
+// 
+TODO(b/174103282): Enable on Rockchip devices. src/chromiumos/tast/local/bundles/cros/video/play.go:254: 
+
+// 
+TODO(crbug.com/1057870): filter this by Intel SoC generation: KBL+. For now, kohaku will do. src/chromiumos/tast/local/bundles/cros/video/play.go:489: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/video/play/play.go:502: 
+
+// 
+TODO(andrescj): this sleep is here to wait prior to taking the screenshot to make sure the video src/chromiumos/tast/local/bundles/cros/video/playback/playback.go:37: 
+
+// 
+TODO(crbug.com/1047051): remove this flag when the experiment is over, and src/chromiumos/tast/local/bundles/cros/video/playback/playback.go:103: 
+
+// 
+TODO(b/183044442): before playing and measuring, we should probably ensure src/chromiumos/tast/local/bundles/cros/video/playback_perf.go:806: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/video/seek.go:341: 
+
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/bundles/cros/vm/blogbench.go:52: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:65: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:100: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:135: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:170: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:205: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:240: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:275: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio.go:310: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/vm/fio_test.go:54: 
+
+// 
+TODO(b/176129399): Remove this line once virtiofs DAX is enabled src/chromiumos/tast/local/bundles/cros/webrtc/data/third_party/sdp/sdp.js:8:
+
+// 
+TODO: use UUIDs instead? https://gist.github.com/jed/982883 src/chromiumos/tast/local/bundles/cros/webrtc/data/third_party/sdp/sdp.js:817: 
+
+// 
+TODO: check the modifier a bit more. src/chromiumos/tast/local/bundles/cros/webrtc/get_display_media.go:29: 
+
+// 
+TODO(crbug.com/1063449): add other cases when the adequate precondition is ready. src/chromiumos/tast/local/bundles/cros/webrtc/rtc_peer_connection_perf.go:34: 
+
+// 
+TODO(crbug.com/1029548): Add more variations here, e.g. vp8. src/chromiumos/tast/local/bundles/cros/wifi/caps.go:97: 
+
+// 
+TODO(crbug.com/1024554): Move to WifiCaps80211ac after it is critical or merge src/chromiumos/tast/local/bundles/cros/wifi/check_intel_fw_dump.go:135: 
+
+// 
+TODO(b:169152720): Confirm the expected size of a firmware dump src/chromiumos/tast/local/bundles/cros/wifi/check_intel_sar_table.go:58: "leona", 
+
+// 
+TODO(b/181049667): Bad SAR table. src/chromiumos/tast/local/bundles/cros/wifi/check_intel_sar_table.go:230:
+
+// 
+TODO(kglund) unit test this function src/chromiumos/tast/local/bundles/cros/wifi/driver.go:138: 
+
+// 
+TODO(oka): Original test skips if "wifi" is not initialized (USE="-wifi"). src/chromiumos/tast/local/bundles/cros/wifi/hostap_hwsim.go:216: 
+
+// 
+TODO(b/184102008): we're seeing unexpected failures due to "no such file". Let's src/chromiumos/tast/local/bundles/cros/wifi/iwlwifirescan/rescan.go:129: 
+
+// 
+TODO(crbug.com/1048366): We now have a shill restart in pci-rescan, so we have src/chromiumos/tast/local/bundles/cros/wifi/shill_service.go:109: 
+
+// 
+TODO(b/161915905): replace "blacklist" with more inclusive term once wpa_supplicant updated. src/chromiumos/tast/local/bundles/cros/wifi/shill_service.go:2068:
+// 
+TODO(b/171280216): Extract these logics from network component. src/chromiumos/tast/local/bundles/cros/wifi/udev_rename.go:35: 
+// 
+TODO(b/149247291): remove the elm/hana 3.18 dependency once elm/hana upreved kernel to 4.19 or above. src/chromiumos/tast/local/bundles/cros/wifi/udev_rename.go:37: 
+// 
+TODO(b/183992356): remove informational variant once Asurada unbind/bind issues are fixed. src/chromiumos/tast/local/bundles/cros/wilco/wilco_service.go:141: 
+// 
+TODO(vsavu): Remove logging after test works. src/chromiumos/tast/local/bundles/cros/wilco/wilco_service.go:165: 
+// 
+TODO(crbug.com/1064236): add request to test server src/chromiumos/tast/local/camera/cca/cca.go:456: 
+// 
+TODO(b/144747002): Some tests (e.g. CCUIIntent) might trigger auto closing of CCA before src/chromiumos/tast/local/camera/cca/cca.go:690: 
+// 
+TODO(b/183366604): Check for |PortraitPattern| once we can ensure there is human face in the src/chromiumos/tast/local/camera/cca/cca.go:1084: 
+// 
+TODO(b/144547749): Since CCA will close automatically after clicking the button, sometimes it src/chromiumos/tast/local/camera/testutil/test_bridge.go:44: 
+// 
+TODO(b/177800595): Store this information in fixture. src/chromiumos/tast/local/camera/testutil/test_bridge.go:98: 
+// 
+TODO(b/173092399): Remove the fallback for legacy path when Chrome is uprev. src/chromiumos/tast/local/camera/testutil/test_bridge.go:144: 
+// 
+TODO(b/173092399): Remove the legacy path when Chrome is uprev. src/chromiumos/tast/local/chrome/ash/fake_icon_data.go:10:
+// 
+TODO(crbug.com/1127165): replace this by a data file when it's ready. src/chromiumos/tast/local/chrome/cdputil/conn.go:72: 
+// 
+TODO(crbug.com/1020484): Return the error from rpcc.Conn.Close. src/chromiumos/tast/local/chrome/chrome.go:49: 
+// 
+TODO(crbug.com/1199705): Find a better value or go back to LoginTimeout. src/chromiumos/tast/local/chrome/chrome.go:54: 
+// 
+TODO(crbug.com/1199705): Find a better value. src/chromiumos/tast/local/chrome/chrome.go:438: 
+// 
+TODO(crbug.com/1096647): Log when a mouse button is pressed. src/chromiumos/tast/local/chrome/ime/ime.go:85: 
+// 
+TODO(b/157686038): Use API to identify completion of changing language src/chromiumos/tast/local/chrome/internal/browserwatcher/browserwatcher.go:128: 
+// 
+TODO(mukai): update gopsutil package and replace this by IsRunning. src/chromiumos/tast/local/chrome/internal/config/config.go:298: 
+// 
+TODO(rrsilva, crbug.com/1109176) - Disable login-related verbose logging src/chromiumos/tast/local/chrome/internal/login/login.go:48: 
+// 
+TODO(crbug/1079235): move this outside of the switch once the test API is available in guest mode. src/chromiumos/tast/local/chrome/internal/setup/preflight.go:64:
+// 
+TODO(crbug.com/1047105): Consider moving this check to pre-test hooks if it turns out to be useful. src/chromiumos/tast/local/chrome/nearbyshare/cros_receive.go:35:
+// 
+TODO(crbug/1173190): Replace with public test functions when available. src/chromiumos/tast/local/chrome/nearbyshare/cros_receive_ui.go:69: 
+// 
+TODO(crbug/1201855): Get rid of the regex and just use "ACCEPT" once we don't have to worry about version skew for CrOS<->CrOS sharing. src/chromiumos/tast/local/chrome/nearbyshare/cros_send.go:68:
+// 
+TODO(crbug/1170815): Replace with public test functions when available. src/chromiumos/tast/local/chrome/nearbyshare/cros_send.go:100:
+// 
+TODO(crbug/1170815): Replace with public test functions when available. src/chromiumos/tast/local/chrome/nearbyshare/fixture.go:336: 
+// 
+TODO(crbug/1127165): Replace with s.DataPath(nearbysnippet.ZipName) when data is supported in Fixtures. src/chromiumos/tast/local/chrome/nearbyshare/fixture.go:422: 
+// 
+TODO(crbug/1189962): To save the btsnoop logs for the duration of each test, we need to start this command in PreTest and kill it in PostTest. src/chromiumos/tast/local/chrome/ui/automation.go:381:
+// 
+TODO(crbug/1173588): Remove after mouse clicks work with Lacros browser. src/chromiumos/tast/local/chrome/ui/filesapp/filesapp.go:58:
+// 
+TODO(crbug/1046853): Look for way to not rely on names being in English. src/chromiumos/tast/local/chrome/ui/quicksettings/quicksettings.go:111:
+// 
+TODO(crbug/1099502): remove this once there's a better indicator for when the status area src/chromiumos/tast/local/chrome/ui/quicksettings/quicksettings.go:409:
+// 
+TODO(crbug/1123231): use better slider automation controls if possible, instead of keyboard controls. src/chromiumos/tast/local/chrome/ui/quicksettings/quicksettings.go:434:
+// 
+TODO(crbug/1123231): use better slider automation controls if possible, instead of keyboard controls. src/chromiumos/tast/local/chrome/ui/quicksettings/quicksettings.go:526: 
+// 
+TODO(crbug/1140196): Remove this Tab press when it's no longer needed for focus to work correctly within Quick Settings. src/chromiumos/tast/local/chrome/uiauto/filesapp/filesapp.go:325: 
+// 
+TODO(b/178020071): Check if waiting for the listbox to stabilize is still required. src/chromiumos/tast/local/chrome/uiauto/filesapp/filesapp.go:351:
+// 
+TODO(crbug/1189914): Remove once the underlying race condition causing the listbox to not populate is fixed. src/chromiumos/tast/local/chrome/uiauto/launcher/launcher.go:75: 
+// 
+TODO: Call autotestPrivate API instead after http://crbug.com/1127384 is implemented. src/chromiumos/tast/local/chrome/uiauto/ossettings/ossettings.go:80:
+// 
+TODO (b/189055966): Fix the failure to launch the right subpage. src/chromiumos/tast/local/chrome/uiauto/vkb/handwriting.go:300:
+// 
+TODO(b/189277286): Add support to check whether a handwriting canvas is clear for a non-longform canvas. src/chromiumos/tast/local/chrome/uiauto/vkb/vkb.go:112:
+// 
+TODO (b/182408845) re-implement the function in case an error happens. src/chromiumos/tast/local/chrome/uiauto/vkb/vkb.go:118:
+// 
+TODO (b/182408845) re-implement the function in case an error happens. src/chromiumos/tast/local/chrome/uiauto/vkb/vkb.go:286: 
+// 
+TODO(b/157686038) A better solution to identify decoder status. src/chromiumos/tast/local/chrome/uig/uig.go:506: 
+// 
+TODO(jinrongwu): handle Attributes and State when necessary src/chromiumos/tast/local/crostini/display.go:179: 
+// 
+TODO(crbug.com/996609) Change this to only close the window that just got opened. src/chromiumos/tast/local/crostini/files.go:38: 
+// 
+TODO(hollingum): modifying PushFile to work as root is very flaky, src/chromiumos/tast/local/crostini/ui/terminalapp/terminalapp.go:112: 
+// 
+TODO(jinrongwu): type the whole name of Terminal instead of t when the following problem fixed. src/chromiumos/tast/local/cryptohome/cryptohome.go:8:
+// 
+TODO(b/182152667): We should deprecate the usage of this file src/chromiumos/tast/local/cryptohome/cryptohome.go:47: 
+// 
+TODO(crbug.com/1074735): Remove this and use mounterExe above for normal user mounts as well src/chromiumos/tast/local/cryptohome/cryptohome.go:286: 
+// 
+TODO(crbug.com/690994): Remove this additional call to src/chromiumos/tast/local/debugd/debugd.go:160: 
+// 
+TODO(abhishekbh): Support calling the D-Bus method with lock_policy=true, and add test cases to debugd/core_scheduler.go. src/chromiumos/tast/local/graphics/deqp_parser.go:174:
+// 
+TODO(andrescj): another possible error check is to make sure a test doesn't src/chromiumos/tast/local/graphics/deqp_parser_test.go:59: 
+// 
+TODO(andrescj): do this also in ParseUIFlags to be consistent. src/chromiumos/tast/local/graphics/dri.go:28: // minute until it subsides. 
+TODO(crbug.com/1047840): Remove when not needed. src/chromiumos/tast/local/graphics/dri.go:142: 
+// 
+TODO(mcasas): In the future we might want to support systems with several GPUs. src/chromiumos/tast/local/graphics/dri.go:175: 
+// 
+TODO(crbug.com/1047514): instead of blindly sampling the amount of src/chromiumos/tast/local/graphics/dri.go:227: 
+// 
+TODO(mcasas): find a way to kill payload() at this point. src/chromiumos/tast/local/graphics/fixture.go:95: 
+// 
+TODO: This needs to be kept in sync for new drivers, especially ARM. src/chromiumos/tast/local/graphics/fixture.go:106: 
+// 
+TODO(pwang): add regex for memory faults. src/chromiumos/tast/local/graphics/kmsvnc.go:56: 
+// 
+TODO(b/177965296): Save logs to separate file. src/chromiumos/tast/local/graphics/trace/trace_replay.go:525: 
+// 
+TODO(tutankhamen): We, probably, want to restart the VM or even reboot the DUT src/chromiumos/tast/local/gtest/gtest.go:6:
+// 
+TODO(hidehiko): Merge chromiumos/tast/local/chrome/bintest package into src/chromiumos/tast/local/gtest/report.go:19:
+// 
+TODO(crbug.com/940320): Consider switching to use JSON, which is supported src/chromiumos/tast/local/input/ioctl.go:26: 
+// 
+TODO: On PowerPC, SPARC, MIPS and Alpha it is defined as a 13-bit constant. src/chromiumos/tast/local/input/keyboard.go:88: 
+// 
+TODO(crbug.com/1015264): Remove the hard-coded sleep. src/chromiumos/tast/local/input/mouse.go:46: 
+// 
+TODO(crbug.com/1015264): Remove the hard-coded sleep. src/chromiumos/tast/local/input/touch.go:181: 
+// 
+TODO(crbug.com/1015264): Remove the hard-coded sleep. src/chromiumos/tast/local/lacros/lacros.go:38:
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/lacros/launcher/fixture.go:189:
+// 
+TODO(crbug.com/1127165): Until this bug is resolved, tests must call EnsureLacrosChrome src/chromiumos/tast/local/lacros/launcher/fixture.go:197: 
+// 
+TODO(crbug.com/1176087): Check whether the current environment is reusable, and if not src/chromiumos/tast/local/lacros/launcher/fixture.go:221: 
+// 
+TODO(hidehiko): Set up Tast test extension for lacros-chrome. src/chromiumos/tast/local/lacros/launcher/launcher.go:163: 
+// 
+TODO(crbug.com/1127165): Move this to the fixture when we can use Data in fixtures. src/chromiumos/tast/local/lacros/launcher/launcher.go:182:
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/lacros/launcher/util.go:27: 
+// 
+TODO(crbug.com/1127165): Extract the artifact here, once we can use Data in fixtures. src/chromiumos/tast/local/lacros/perftest.go:96:
+// 
+TODO(crbug.com/1127165): Remove the artifactPath argument when we can use Data in fixtures. src/chromiumos/tast/local/media/cpu/cpu.go:374: 
+// 
+TODO(dstaessens): Skip disabled CPU cores when setting scaling_governor. src/chromiumos/tast/local/media/data/loopback_camera.html:101: 
+// 
+TODO(phoglund): replace with MediaRecorder. setInterval isn't at all src/chromiumos/tast/local/media/decoding/accel_video.go:244: 
+// 
+TODO(dstaessens) Investigate collecting CPU usage during previous test. src/chromiumos/tast/local/media/encoding/yuv.go:61:
+// 
+TODO(b/177856221): Removes the functionality of producing NV12 format, so that this always produces an I420 file. src/chromiumos/tast/local/media/encoding/yuv.go:103: 
+// 
+TODO(hiroh): When YV12 test case is added, try generate YV12 yuv here by passing "--yv12" instead of "--i420". src/chromiumos/tast/local/media/histogram/histogram.go:26:
+// 
+TODO(crbug.com/985068#c5): follow up the improvement plan. src/chromiumos/tast/local/media/imgcmp/imgcmp.go:35: 
+// 
+TODO(ricardoq): At least on Eve, Nocturne, Caroline, Kevin and Dru the color src/chromiumos/tast/local/media/pre/fixture.go:100: 
+// 
+TODO(crbug.com/958166): Use simply ChromeVideo() when HDR is launched. src/chromiumos/tast/local/media/pre/fixture.go:304: 
+// 
+TODO(b/172217032): Remove these *HWAV1Decoding preconditions once the hardware av1 decoder feature is enabled by default. src/chromiumos/tast/local/media/pre/fixture.go:336: 
+// 
+TODO(crbug.com/958166): Use simply ChromeVideoWithSWDecoding() when HDR is launched. src/chromiumos/tast/local/media/pre/fixture.go:432: 
+// 
+TODO(b/182171409): Remove this once Shaka player is updated to support HEVC src/chromiumos/tast/local/playbilling/fixture.go:33:
+// 
+TODO(crbug/1127165): Move this to the fixture once data is supported. src/chromiumos/tast/local/playbilling/fixture.go:43:
+// 
+TODO(crbug/1127165): Move this to the fixture once data is supported. src/chromiumos/tast/local/playbilling/fixture.go:108: 
+// 
+TODO(crbug/1127165): Move this to the fixture once data is supported. src/chromiumos/tast/local/playbilling/fixture.go:170: 
+// 
+TODO: Ensure all PWA windows and ARC payment overlays are properly closed. src/chromiumos/tast/local/policyutil/pre/pre.go:129: 
+// 
+TODO(crbug.com/1049532): Copy log and policy.json for each test. src/chromiumos/tast/local/power/power_manager_emitter.go:94: 
+// 
+TODO(crbug.com/1062564): Remove polling and waiting for signals. src/chromiumos/tast/local/power/rapl.go:152: 
+// 
+TODO(crbug/1022205): Only Intel CPUs are supported at the moment. src/chromiumos/tast/local/power/rapl.go:169: 
+// 
+TODO(crbug/1022205): Only Intel CPUs are supported at the moment. src/chromiumos/tast/local/power/setup/setup_screen_backlight.go:87: 
+// 
+TODO(hikarun): Remove listing backlights after checking this logic works on all platforms src/chromiumos/tast/local/power/sysfs_battery_metrics.go:147: 
+// 
+TODO(hikarun): Remove ContextLogf()s after checking this function works on all platforms src/chromiumos/tast/local/power/thermal_metrics.go:22: 
+// 
+TODO(springerm): Remove ContextLogf()s after checking this function works on all platforms src/chromiumos/tast/local/printing/document/compare.go:20:
+// 
+TODO(crbug.com/973637): Investigate why it is that CUPS is inconsistent on src/chromiumos/tast/local/printing/ippusbbridge/util.go:71: 
+// 
+TODO(crbug.com/1131511): Clean up error handling here when gpsutil has been upreved. src/chromiumos/tast/local/profiler/perf.go:117: 
+// 
+TODO(crbug.com/996728): aarch64 is disabled before the kernel crash is fixed. src/chromiumos/tast/local/screenshot/config.go:60: 
+// 
+TODO(crbug.com/1173812): Add pseudolocales once they're supported on all release images. src/chromiumos/tast/local/screenshot/differ.go:40:
+// 
+TODO(crbug.com/skia/10808): Change this once we have a production instance. src/chromiumos/tast/local/screenshot/differ.go:218: 
+// 
+TODO(crbug.com/skia/10808): once gold supports filtering by job id in the URL, set that. src/chromiumos/tast/local/screenshot/differ.go:231: 
+// 
+TODO(crbug.com/skia/11815): once gold supports a local dev mode, replace the git hash field with that. src/chromiumos/tast/local/syslog/reader.go:347: 
+// 
+TODO(crbug.com/1144594): Remove backward compatibility once enough time src/chromiumos/tast/local/syslog/reader_test.go:25: 
+// 
+TODO(crbug.com/1144594): Remove backward compatibility once enough time src/chromiumos/tast/local/sysutil/mountinfo.go:56:
+// 
+TODO(chavey): crbug/1126921 - replace master in structure. src/chromiumos/tast/remote/bundlemain/main.go:173: 
+// 
+TODO(crbug.com/1097657): Return error after making sure existing tests does not get flaky by this check. src/chromiumos/tast/remote/bundles/cros/arc/data_collector.go:132: 
+// 
+TODO(b/183648019): Once VM ureadahead flow is stable, remove this and src/chromiumos/tast/remote/bundles/cros/camera/its.go:218: 
+// 
+TODO(b/169303835): Collect /var/log/messages during test run. src/chromiumos/tast/remote/bundles/cros/crash/ec_crash.go:34: 
+// 
+TODO(crbug.com/967901): Remove no_qemu dep once servo var is sufficient. src/chromiumos/tast/remote/bundles/cros/crash/lock_core_pattern.go:53: 
+// 
+TODO(sarthakkukreti): Verify whether the error type was an expected one, or remove this message. src/chromiumos/tast/remote/bundles/cros/filemanager/freeze_fuse.go:21: 
+// 
+TODO(b/177494589): Add additional test cases for different FUSE instances. src/chromiumos/tast/remote/bundles/cros/firmware/booted_device_reporter.go:36: 
+// 
+TODO(gredelston): Reenable when b/183044117 is resolved src/chromiumos/tast/remote/bundles/cros/firmware/check_servo_key_presses.go:65: 
+// 
+TODO(kmshelton): Make utils.ReadServoKeyboard a streaming RPC that returns decoded key events, src/chromiumos/tast/remote/bundles/cros/firmware/eventlog.go:86: 
+// 
+TODO(gredelston): Test eventlog upon dev->dev reboot src/chromiumos/tast/remote/bundles/cros/firmware/eventlog.go:87: 
+// 
+TODO(gredelston): Test eventlog upon normal->rec reboot src/chromiumos/tast/remote/bundles/cros/firmware/eventlog.go:88: 
+// 
+TODO(gredelston): Test eventlog upon rec->normal reboot src/chromiumos/tast/remote/bundles/cros/firmware/eventlog.go:89: 
+// 
+TODO(gredelston): Test eventlog upon suspend/resume src/chromiumos/tast/remote/bundles/cros/firmware/eventlog.go:90: 
+// 
+TODO(gredelston): Test eventlog with hardware watchdog src/chromiumos/tast/remote/bundles/cros/firmware/fp_rdp0.go:121: 
+// 
+TODO(https://crbug.com/1195936): ReimageFPMCU reboots, which causes gRPC src/chromiumos/tast/remote/bundles/cros/firmware/fp_rdp0.go:176: 
+// 
+TODO(https://crbug.com/1195936): Rebooting causes gRPC src/chromiumos/tast/remote/bundles/cros/firmware/pre.go:36: 
+// 
+TODO(aluo): Re-enable when b/169704069 is resolved. src/chromiumos/tast/remote/bundles/cros/meta/run_tests_remote_fixture.go:57: 
+// 
+TODO(oka): test TearDown failures after fixutre failures become src/chromiumos/tast/remote/bundles/cros/nearbyshare/cros_to_cros_high_vis.go:103: 
+// 
+TODO(crbug/1173190): Remove polling when we can confirm the transfer status with public test functions. src/chromiumos/tast/remote/bundles/cros/nearbyshare/smoke_multi_dut_ui.go:31: 
+// 
+TODO(crbug/1127165): Move to fixture when data is available in fixtures. src/chromiumos/tast/remote/bundles/cros/network/diag_signal_strength.go:132: 
+// 
+TODO(http://b/188068031): remove when handled by the fixture. src/chromiumos/tast/remote/bundles/cros/network/system_services_connectivity.go:89: 
+// 
+TODO(acostinas): Find a way to test update_engine and crash_sender behind the firewall. src/chromiumos/tast/remote/bundles/cros/network/system_services_connectivity.go:94:
+// 
+TODO(acostinas): Consider merging with runTLSDate. src/chromiumos/tast/remote/bundles/cros/network/system_services_connectivity.go:101: 
+// 
+TODO(acostinas,b/179762130) Remove timeout once tlsdated has an option to exit after the first invocation. src/chromiumos/tast/remote/bundles/cros/platform/cros_hardware_verifier.go:364: 
+// 
+TODO(crbug/1097710): Remove this check when this is the default behavior. src/chromiumos/tast/remote/bundles/cros/platform/encrypted_reboot_vault.go:47: 
+// 
+TODO(crbug.com/1047737): Replace with linuxssh.WriteFile() once available. src/chromiumos/tast/remote/bundles/cros/typec/basic.go:40: 
+// 
+TODO(b/184925712): Switch this to rely on SoftwareDeps (for TCPMv2 and kernel >= v5.4) rather src/chromiumos/tast/remote/bundles/cros/typec/basic.go:84: 
+// 
+TODO(pmalani): ccd_keepalive_en set commands don't always "take" so we have to repeat it. src/chromiumos/tast/remote/bundles/cros/typec/mode_reboot.go:139: 
+// 
+TODO(b/179338646): Check that there is a connected DP monitor. src/chromiumos/tast/remote/bundles/cros/typec/mode_reboot.go:195: 
+// 
+TODO(pmalani): Determine how many ports a device supports, instead of src/chromiumos/tast/remote/bundles/cros/usbc/fluffy_interop_std.go:91: 
+// 
+TODO(b/140571237) The way it stands is okay for a manual test. The more robust thing to do here src/chromiumos/tast/remote/bundles/cros/wifi/channel_hop.go:174: 
+// 
+TODO(b/173339429): The timeout is quite long (90s) here because fast src/chromiumos/tast/remote/bundles/cros/wifi/channel_hop.go:184: // is fixed or remove this 
+TODO if it is WAI. src/chromiumos/tast/remote/bundles/cros/wifi/channel_scan_dwell_time.go:65: 
+// 
+TODO(b/182308669): Tighten up min/max bounds on various channel dwell times src/chromiumos/tast/remote/bundles/cros/wifi/csa_leave_channel.go:53: 
+// 
+TODO(b/154879577): Currently the action frames sent by FrameSender src/chromiumos/tast/remote/bundles/cros/wifi/csa_leave_channel.go:155: 
+// 
+TODO(b/154879577): Find some way to know if DUT supports src/chromiumos/tast/remote/bundles/cros/wifi/csa_reconnect.go:122: 
+// 
+TODO(b/181365077): Gale AP takes a long time to send beacons on the new channel and that src/chromiumos/tast/remote/bundles/cros/wifi/disconnect_reason.go:108: 
+// 
+TODO(b/154879577): Currently the action frames sent by FrameSender src/chromiumos/tast/remote/bundles/cros/wifi/functional_after_csa.go:66: 
+// 
+TODO(b/154879577): Currently the action frames sent by FrameSender src/chromiumos/tast/remote/bundles/cros/wifi/mtbf.go:57: 
+// 
+TODO(b/184596754): Find a way to suspend for longer time. src/chromiumos/tast/remote/bundles/cros/wifi/mtbf.go:112: 
+// 
+TODO(b/184599948): Determine the traffic type and pass/fail criteria. src/chromiumos/tast/remote/bundles/cros/wifi/persistence_bluetooth_sans_wifi.go:37: 
+// 
+TODO: remove this swdep when the jacuzzi issue is fixed (b:178449023) src/chromiumos/tast/remote/bundles/cros/wifi/persistence_wifi_sans_bluetooth.go:34: 
+// 
+TODO: remove this swdep when the jacuzzi issue is fixed (b:178449023) src/chromiumos/tast/remote/bundles/cros/wifi/power_save.go:87: 
+// 
+TODO(b:158222331) Check if it is important to test switching src/chromiumos/tast/remote/bundles/cros/wifi/power_save.go:101: 
+// 
+TODO(b:158222331) Make sure there is no background src/chromiumos/tast/remote/bundles/cros/wifi/ptk.go:40:
+// 
+TODO(b/183463918): remove the restriction once the bug is solved. src/chromiumos/tast/remote/bundles/cros/wifi/ptk.go:63: 
+// 
+TODO(b/183463918): remove this once the issue is fixed. src/chromiumos/tast/remote/bundles/cros/wifi/reset.go:34: 
+// 
+TODO(chromium:1070299): These models are chosen manually by finding the models that are always failing with NA-error on Autotest network_WiFi_Reset. Replace them with more proper hwdep in the future. src/chromiumos/tast/remote/bundles/cros/wifi/reset.go:44: 
+// 
+TODO(b/175602523): Replace the default with this once the issue is fixed. src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect.go:478: 
+// 
+TODO(crbug.com/1082582): shill don't allow leading 0x00 now, so let's append it in the src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect.go:505: 
+// 
+TODO(b/158150763): Skip Marvell WiFi as there's a known issue to make the test always fail. src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect.go:1213: 
+// 
+TODO(crbug.com/1034875): Assert no deauth detected from the server side. src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect.go:1214: 
+// 
+TODO(crbug.com/1034875): Maybe some more check on the WiFi capabilities to src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect_test.go:407: ExtraHardwareDepsDoc: []string{"
+TODO(b/158150763): Skip Marvell WiFi as there's a known issue to make the test always fail."}, src/chromiumos/tast/remote/bundles/cros/wifi/simple_connect_test.go:412: "
+TODO(crbug.com/1082582): shill don't allow leading 0x00 now, so let's append it in the", src/chromiumos/tast/remote/bundles/cros/wilco/drallion_tablet_power.go:37: 
+// 
+TODO(mwiitala): Restore attributes after fixing http://b/149035007 src/chromiumos/tast/remote/cros/nearbyshare/fixture.go:40: 
+// 
+TODO(crbug/1127165): Remove after data is supported in fixture. src/chromiumos/tast/remote/cros/nearbyshare/fixture.go:224: 
+// 
+TODO(crbug/1127165): Remove after data is supported in fixture. src/chromiumos/tast/remote/cros/nearbyshare/fixture.go:365: 
+// 
+TODO(crbug/1205689): move btsnoop log capture into the local NearbyService. src/chromiumos/tast/remote/firmware/fingerprint/fingerprint.go:213: 
+// 
+TODO(b/183123775): Remove when bug is fixed. src/chromiumos/tast/remote/firmware/fingerprint/fingerprint.go:320: 
+// 
+TODO(https://crbug.com/1195936): ReimageFPMCU reboots, which causes gRPC src/chromiumos/tast/remote/firmware/fingerprint/fingerprint.go:687: 
+// 
+TODO(https://crbug.com/1030862): remove when nocturne has cros_config src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:20: 
+// 
+TODO(b/149590275): remove once fixed src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:30: 
+// 
+TODO(b/149590275): remove once fixed src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:41: 
+// 
+TODO(b/149590275): remove once fixed src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:66: 
+// 
+TODO(b/149590275): remove once fixed src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:77: 
+// 
+TODO(b/149590275): remove once fixed src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:113: 
+// 
+TODO(b/116396469): Add error checking once it's fixed. src/chromiumos/tast/remote/firmware/fingerprint/fingerprint_flash_protect.go:116: 
+// 
+TODO(b/116396469): "flashprotect enable" command is slow, so wait for src/chromiumos/tast/remote/firmware/helper.go:280:
+// 
+TODO(gredelston): When Autotest SSP tarballs contain local Tast test bundles, refactor this code src/chromiumos/tast/remote/firmware/reporters/booted_device.go:108:
+// 
+TODO(aluo): deduplicate with utils.deviceRemovable. src/chromiumos/tast/remote/policyutil/enrolled_fixture.go:82: 
+// 
+TODO(crbug.com/1187473): use a temporary directory. src/chromiumos/tast/remote/servo/methods.go:479: 
+// 
+TODO(b/157751281): Clean this up once servo_v3 has been removed. src/chromiumos/tast/remote/sysutil/rootfs.go:48: 
+// 
+TODO(https://crbug.com/1195936): Need to reconnect to RPC service since we rebooted. src/chromiumos/tast/remote/wificell/attenuator/attenuator.go:126: 
+// 
+TODO: Check for resources to clean. src/chromiumos/tast/remote/wificell/attenuator/attenuator.go:187: 
+// 
+TODO: Add logging src/chromiumos/tast/remote/wificell/dhcp/server.go:124: 
+// 
+TODO(crbug.com/1030635): though it is better to use --conf-file=- so that it src/chromiumos/tast/remote/wificell/dhcp/server.go:164: 
+// 
+TODO(crbug.com/1030635): Abort might not work, use pkill to ensure the daemon is killed. src/chromiumos/tast/remote/wificell/framesender/sender.go:186: 
+// 
+TODO(crbug.com/1030635): Abort might not work, use pkill to ensure the daemon is killed. src/chromiumos/tast/remote/wificell/hostapd/server.go:148: 
+// 
+TODO(crbug.com/1047146): Remove the env part after we drop the old crypto like MD5. src/chromiumos/tast/remote/wificell/hostapd/server.go:222: 
+// 
+TODO(crbug.com/1030635): Abort might not work, use pkill to ensure the daemon is killed. src/chromiumos/tast/remote/wificell/pcap/capturer.go:148: 
+// 
+TODO(crbug.com/1030635): Signal through SSH might not work. Use pkill to send signal for now. src/chromiumos/tast/remote/wificell/pcap/capturer.go:175: 
+// 
+TODO(b/154787243): Find a better way to wait for pcap to be done. src/chromiumos/tast/remote/wificell/router/legacy_router.go:129: 
+// 
+TODO(crbug.com/839164): Current CrOS on router haven't got the fix in crrev.com/c/1979112. src/chromiumos/tast/remote/wificell/router/legacy_router.go:792:
+// 
+TODO(b/171683002): Find a better way to make sure that shill has already registered and enabled/disabled the device. src/chromiumos/tast/remote/wificell/router/legacy_router.go:834:
+// 
+TODO(b/171683002): Find a better way to make sure that shill has already enabled/disabled the bridge. We poll the src/chromiumos/tast/remote/wificell/test_fixture.go:277: 
+// 
+TODO(crbug.com/728769): Make sure if we need to turn off powersave. src/chromiumos/tast/remote/wificell/test_fixture.go:1192:
+// 
+TODO(b/161915905): replace "blacklist" with more inclusive term once wpa_supplicant updated. src/chromiumos/tast/remote/wificell/test_fixture.go:1466: 
+// 
+TODO(b/154879577): Find some way to know if DUT supports src/chromiumos/tast/services/cros/wilco/wilco_service.pb.go:271: 
+// 
+TODO(vsavu): replace with RunRoutineRequest from wilco_dtc_supportd.proto src/chromiumos/tast/services/cros/wilco/wilco_service.proto:76: 
+// 
+TODO(vsavu): replace with RunRoutineRequest from wilco_dtc_supportd.proto tools/generate_automation2_constants.py:17:
+TODO(hirokisato): Currently this script reads closure compiler's definition js tools/generate_automation_constants.py:17:
+TODO(hirokisato): Currently this script reads closure compiler's definition js
