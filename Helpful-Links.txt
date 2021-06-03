@@ -1,4 +1,7 @@
+Command to add depot tools = export PATH="$PATH:${HOME}/depot_tools"
+
 RUN chromium os = cros_vm --start --board amd64-generic --image-path /mnt/host/source/src/build/images/amd64-generic/R93-13994.0.2021_05_28_1145-a1/chromiumos_qemu_image.bin
+
 
 Chromium OS Developer Guide - https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md
 
