@@ -1,3 +1,6 @@
+ALWAYS START WITH REPO SYNC AND THEN REPO BRANCH <BRANCH-NAME>
+
+
 Command to add depot tools = export PATH="$PATH:${HOME}/depot_tools"
 
 RUN chromium os = cros_vm --start --board amd64-generic --image-path /mnt/host/source/src/build/images/amd64-generic/R93-13994.0.2021_05_28_1145-a1/chromiumos_qemu_image.bin
@@ -38,3 +41,6 @@ https://chromium.googlesource.com/chromiumos/platform/tast/+/HEAD/docs/running_t
 Building and Running tests - 
 https://www.chromium.org/chromium-os/testing/building-and-running-tests
 
+For uploading hooks -
+
+https://chromium.googlesource.com/chromiumos/repohooks/
