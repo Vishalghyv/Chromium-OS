@@ -8,6 +8,9 @@ RUN chromium os = cros_vm --start --board amd64-generic --image-path /mnt/host/s
 
 cros_vm --start --board amd64-generic --image-path /mnt/host/source/src/build/images/amd64-generic/R93-14010.0.2021_06_03_1738-a1/chromiumos_qemu_image.bin
 
+Search Code-
+https://source.chromium.org/chromiumos/chromiumos/codesearch/
+
 Tast tests Main guide - 
 https://chromium.googlesource.com/chromiumos/platform/tast/+/HEAD/docs/quickstart.md
 
